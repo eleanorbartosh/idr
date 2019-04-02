@@ -1,0 +1,409 @@
+//----------------------------
+// PageIcon
+//----------------------------
+
+.page-icon-green {
+  fill: $support-02;
+}
+
+//----------------------------
+// Flex
+//----------------------------
+.container .flex-wrap {
+  @include carbon--breakpoint('md') {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+//----------------------------
+// Bleed
+//----------------------------
+.container .ibm--col-bleed {
+  padding: 0;
+}
+
+//----------------------------
+// h2
+//----------------------------
+
+.page-h2,
+.component-docs h2,
+.icon-h2 {
+  @include carbon--type-style('expressive-heading-04', true);
+  position: relative;
+  color: $text-01;
+  margin-top: rem(48px);
+  margin-bottom: $spacing-lg;
+  position: relative;
+  display: inline-block;
+}
+
+.page-h2#articles:before {
+  padding-bottom: rem(80px);
+}
+
+//----------------------------
+// h3
+//----------------------------
+
+.page-h3,
+.component-docs h3 {
+  @include carbon--type-style('expressive-heading-03', true);
+  color: $text-01;
+  margin-top: rem(24px);
+  margin-bottom: $spacing-md;
+  position: relative;
+  display: inline-block;
+}
+
+.component-docs h3 {
+  margin-top: rem(48px);
+}
+
+.page-h3#sizing {
+  margin-top: 1.125rem;
+}
+
+.page-h3#what’s-included {
+  margin-bottom: rem(24px);
+}
+//----------------------------
+// h4
+//----------------------------
+
+.page-h4,
+.component-docs h4 {
+  @include carbon--type-style('heading-02');
+  color: $text-01;
+  margin-top: rem(8px);
+  margin-bottom: 0;
+  position: relative;
+  display: inline-block;
+}
+
+.component-docs h4 {
+  margin-top: rem(48px);
+}
+
+.component-docs h3 + h4 {
+  margin-top: rem(8px);
+}
+
+// Targets heading elements when they are the first element on a page to remove top margin
+.page-content > div > .ibm--row:first-child {
+  .page-h4,
+  .component-docs h4,
+  .page-h3,
+  .component-docs h3,
+  .page-h2,
+  .component-docs h2 {
+    margin-top: 0;
+  }
+
+  .page-h2:before {
+    padding-bottom: 3rem;
+  }
+}
+
+// removes inline-block styles when headings are directly followinng each other
+.component-docs h3 + h4,
+.component-docs h4 + h4,
+.component-docs h4 + h3 {
+  display: block;
+}
+
+//----------------------------
+// h5
+//----------------------------
+
+.page-h5,
+.component-docs h5 {
+  position: relative;
+  @include carbon--type-style('heading-02');
+  color: $text-01;
+  margin-top: rem(8px);
+  margin-bottom: rem(16px);
+}
+
+//----------------------------
+// Anchor Link
+//----------------------------
+.page-h2,
+.page-h3,
+.page-h4,
+.page-h5 {
+  // This makes sure there is breathing room when
+  // you jump to the heading anchor link
+  &:before {
+    display: block;
+    content: ' ';
+    margin-top: rem(-48px);
+    padding-bottom: rem(48px);
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .anchor-link {
+    position: absolute;
+    left: rem(-24px);
+    opacity: 0;
+  }
+
+  .anchor-link__icon {
+    fill: $carbon--blue-50;
+  }
+
+  &:hover .anchor-link {
+    opacity: 1;
+  }
+}
+
+.page-h2:before {
+  padding-bottom: rem(56px);
+}
+
+.page-h4:before {
+  margin-top: -2rem;
+  padding-bottom: 2rem;
+}
+
+//----------------------------
+// ul / ol
+//----------------------------
+
+.page-ul,
+.page-ol {
+  @include carbon--type-style('body-long-02');
+  margin: 0 0 rem(24px) $spacing-lg;
+  line-height: 1.5;
+  position: relative;
+}
+
+.page-ul {
+  margin-left: 0;
+}
+
+.page-ul > li {
+  font-weight: 400;
+  padding-left: 1rem;
+  list-style-type: none;
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: '\2013';
+    margin-right: 0.5rem;
+    margin-bottom: 0.25rem;
+    left: 0;
+  }
+}
+
+.page-ul > li span,
+.page-ol > li span {
+  margin-top: 1rem;
+}
+
+.page-ol > li {
+  font-weight: 400;
+  padding-left: 0.25rem;
+  list-style-type: decimal;
+}
+
+.page-ol > li:last-child p {
+  padding-bottom: 0;
+}
+
+.page-ul .page-ul {
+  margin-top: -1.25rem;
+}
+
+.page-ol .page-ul {
+  margin-bottom: 0;
+}
+
+// The following is a css hack because remark is nesting
+// tags inside of lists and causing double grid code
+.container .page-ol,
+.container .page-ul {
+  .ibm--row {
+    margin: 0;
+    width: 100%;
+  }
+
+  .ibm--offset-lg-4 {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .ibm--col-lg-7,
+  .ibm--col-lg-8,
+  .ibm--col-lg-12 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+//----------------------------
+// Anchor Link
+//----------------------------
+
+.page-content > div > .anchor-links:first-child .page-ul {
+  margin-top: 0;
+}
+
+.page-content > div:first-child > .anchor-links:first-child .page-ul {
+  margin-bottom: 0;
+}
+
+.anchor-links {
+  .page-ul {
+    width: auto;
+    margin-bottom: 0;
+    margin-top: rem(16px);
+
+    @include carbon--breakpoint('md') {
+      margin-bottom: 2.25rem;
+    }
+  }
+
+  .page-ul > li {
+    @include carbon--type-style('expressive-heading-03', true);
+    width: auto;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+
+    &:before {
+      display: none;
+    }
+
+    a {
+      @include carbon--type-style('expressive-heading-03', true);
+      position: relative;
+      display: inline-block;
+      transition: color $transition--base;
+      color: $carbon--gray-90;
+      text-decoration: none;
+      margin-bottom: rem(4px);
+
+      &:hover {
+        color: $carbon--blue-60;
+        &::before {
+          color: $carbon--blue-60;
+        }
+      }
+
+      &:before {
+        content: '\21B3'; //"↳"
+        font-family: 'IBM Plex Sans', 'ibm-plex-sans', 'Helvetica Neue', Arial,
+          sans-serif;
+        color: $carbon--gray-90;
+        transition: color $transition--base;
+        padding-right: rem(8px);
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.anchor-links:not(.anchor-links--small) .page-ul {
+  @include carbon--breakpoint('md') {
+    margin-bottom: rem(32px);
+  }
+}
+
+.anchor-links--small .page-ul {
+  margin-top: rem(16px);
+}
+
+.anchor-links--column .page-ul {
+  @include carbon--breakpoint('md') {
+    column-count: 2;
+  }
+}
+
+.anchor-links--small a,
+.anchor-links--small .page-ul > li a {
+  @include carbon--type-style('body-long-02');
+  margin-bottom: 0;
+}
+
+//----------------------------
+// Image
+//----------------------------
+
+.page-content img {
+  max-width: 100%;
+}
+
+.gatsby-resp-image-background-image {
+  background: transparent !important; // Need important to override inline style added by gatsby-remark-images
+}
+
+.container--component .gatsby-resp-image-image {
+  box-shadow: none !important; // Need important to override inline style added by gatsby-remark-images
+  border: none !important;
+}
+
+//----------------------------
+// Blockquote
+//----------------------------
+
+.page-content blockquote {
+  margin: 1.75rem 0 0;
+  line-height: 1.75;
+  width: 100%;
+  //max-width: 38rem;
+}
+
+//----------------------------
+// Markdown Anchor
+//----------------------------
+
+// This hides the anchor link from everything except h2
+// the custom markdown prevents the links from working for those html elements
+
+.page-h4,
+h5,
+h6 {
+  .anchor {
+    display: none;
+  }
+}
+
+//----------------------------
+// Video Embed
+//----------------------------
+
+iframe.embedVideoIframe {
+  border: 1px solid $ui-03;
+}
+
+//----------------------------
+// HR
+//----------------------------
+hr {
+  display: none;
+}
+
+//----------------------------
+// Tiles
+//----------------------------
+
+.page-content > div > .tile--resource {
+  margin-bottom: 0;
+}
+
+//----------------------------
+// Table
+//----------------------------
+
+.component-docs p + table {
+  margin-top: 0;
+}

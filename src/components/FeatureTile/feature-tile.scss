@@ -1,0 +1,107 @@
+.feature-tile--margin {
+  margin-bottom: $spacing-lg;
+}
+
+a.feature-tile {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+}
+
+.tile__img .gatsby-resp-image-wrapper {
+  background: transparent;
+  margin: 0 !important; //needed to override automatic gatsby styles
+  max-width: 100% !important; //needed to override automatic gatsby styles
+}
+
+.feature-tile__tile {
+  @include carbon--breakpoint('sm') {
+    width: 100%;
+    position: relative;
+  }
+
+  @include carbon--breakpoint('md') {
+    width: 50%;
+    position: absolute;
+    right: 1rem;
+    bottom: 0;
+  }
+
+  @include carbon--breakpoint('lg') {
+    width: 25%;
+  }
+}
+
+a.feature-tile:hover .feature-tile__info {
+  background-color: $carbon--gray-80;
+}
+
+.feature-tile__info {
+  background-color: $carbon--gray-90;
+  padding: $spacing-md;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.feature-tile__info p {
+  padding-bottom: 0;
+  line-height: 1.25;
+}
+
+.feature-tile__icon {
+  position: absolute;
+  bottom: rem(14px);
+  right: $spacing-md;
+  fill: $carbon--gray-30;
+}
+
+.feature-tile__label {
+  @include carbon--type-style('body-short-01');
+  color: $carbon--gray-30;
+}
+
+.feature-tile__title {
+  @include carbon--type-style('expressive-heading-03', true);
+  color: $carbon--gray-10;
+}
+
+a.feature-tile.feature-tile--mobile {
+  display: block;
+
+  @include carbon--breakpoint('md') {
+    display: none;
+  }
+}
+
+a.feature-tile.feature-tile--desktop {
+  display: none;
+
+  @include carbon--breakpoint('md') {
+    display: block;
+  }
+}
+
+div.feature-tile--margin.feature-tile--mobile,
+div.feature-tile--mobile {
+  margin-bottom: 1rem;
+
+  @include carbon--breakpoint('md') {
+    margin-bottom: 0;
+  }
+}
+
+div.feature-tile--margin.feature-tile--desktop,
+div.feature-tile--desktop {
+  margin-bottom: 0;
+
+  @include carbon--breakpoint('md') {
+    margin-bottom: 1rem;
+
+    & > .ibm--col-lg-12 {
+      padding: 0;
+    }
+  }
+}
