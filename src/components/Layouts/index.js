@@ -239,25 +239,7 @@ class Layout extends React.Component {
               ]}>
               <html lang="en" />
             </Helmet>
-            <aside aria-label="alert banner" className="website-alert">
-              <Information20 className="website-alert__icon" />
-              <p className="website-alert__text">
-                <span>Carbon v10 is live!</span>
-                <span />{' '}
-                <span>View the migration guide to upgrade from v9.</span>
-              </p>
-              <Link
-                className="website-alert__button"
-                tabIndex="-1"
-                to="/updates/v10-migration/overview">
-                <button
-                  class="bx--btn bx--btn--secondary bx--btn--sm"
-                  type="button">
-                  <span>Migrate to v10</span>
-                  <ArrowRight20 />
-                </button>
-              </Link>
-            </aside>
+
             <Header aria-label="Header" className="bx--header--website">
               <SkipToContent />
               <HeaderMenuButton
@@ -279,7 +261,7 @@ class Layout extends React.Component {
                 </HeaderName>
               ) : (
                 <HeaderName prefix="" to="/" element={Link}>
-                  Carbon&nbsp;<span>Design System</span>
+                  IBM&nbsp;<span>Design Research</span>
                 </HeaderName>
               )}
               <HeaderGlobalBar>

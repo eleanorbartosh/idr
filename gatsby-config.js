@@ -7,9 +7,9 @@ const { PATH_PREFIX = '/' } = process.env;
 module.exports = {
   pathPrefix: PATH_PREFIX,
   siteMetadata: {
-    title: 'Carbon Design System',
-    titleInternal: 'Carbon Design System',
-    siteUrl: 'https://www.carbondesignsystem.com'
+    title: 'IBM Design Research',
+    titleInternal: 'IBM Design Research',
+    siteUrl: 'https://www.ibm.com/design/research',
   },
   plugins: [
     {
@@ -87,8 +87,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Carbon Design System`,
-        short_name: `Carbon`,
+        name: `IBM Design Research`,
+        short_name: `IDR`,
         start_url: `/`,
         background_color: `#000000`,
         theme_color: `#cccccc`,
@@ -118,6 +118,6 @@ module.exports = {
         },
       },
     },
-    'gatsby-plugin-sitemap'
+    'gatsby-plugin-sitemap',
   ],
 };
