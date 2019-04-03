@@ -690,11 +690,6 @@
         "path": "/contributing/governance/"
     },
     {
-        "componentChunkName": "component---cache-dev-404-page-js",
-        "jsonName": "dev-404-page-5f9",
-        "path": "/dev-404-page/"
-    },
-    {
         "componentChunkName": "component---src-templates-page-js",
         "jsonName": "experimental-about-2eb",
         "path": "/experimental/about/"
@@ -903,6 +898,11 @@
         "componentChunkName": "component---src-templates-page-js",
         "jsonName": "help-support-ec6",
         "path": "/help/support/"
+    },
+    {
+        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+        "jsonName": "offline-plugin-app-shell-fallback-a30",
+        "path": "/offline-plugin-app-shell-fallback/"
     },
     {
         "componentChunkName": "component---src-templates-page-js",

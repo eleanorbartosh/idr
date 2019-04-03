@@ -6,7 +6,7 @@ var plugins = [{
       options: {"plugins":[],"trackingId":"UA-131128838-1"},
     },{
       plugin: require('/Users/scottstrubberg/idr/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Carbon Design System","short_name":"Carbon","start_url":"/","background_color":"#000000","theme_color":"#cccccc","display":"minimal-ui","icon":"src/content/global/images/favicon-32.png"},
+      options: {"plugins":[],"name":"IBM Design Research","short_name":"IDR","start_url":"/","background_color":"#000000","theme_color":"#cccccc","display":"minimal-ui","icon":"src/content/global/images/favicon-32.png"},
     },{
       plugin: require('/Users/scottstrubberg/idr/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
