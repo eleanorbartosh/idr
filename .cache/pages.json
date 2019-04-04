@@ -690,6 +690,16 @@
         "path": "/contributing/governance/"
     },
     {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "ethics-cbd",
+        "path": "/ethics/"
+    },
+    {
         "componentChunkName": "component---src-templates-page-js",
         "jsonName": "experimental-about-2eb",
         "path": "/experimental/about/"
@@ -891,6 +901,106 @@
     },
     {
         "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-add-ons-fc3",
+        "path": "/guiding-/add-ons/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-designers-0e4",
+        "path": "/guiding-/designers/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-developers-0cc",
+        "path": "/guiding-/developers/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-governance-c8d",
+        "path": "/guiding-/governance/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-principles-1-make-to-learn-648",
+        "path": "/guiding-principles.1/make-to-learn/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-principles-1-overview-a65",
+        "path": "/guiding-principles.1/overview/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-principles-1-research-as-a-team-827",
+        "path": "/guiding-principles.1/research-as-a-team/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-principles-1-stay-curious-b44",
+        "path": "/guiding-principles.1/stay-curious/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-principles-add-ons-b9e",
+        "path": "/guiding-principles/add-ons/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-principles-curious-7f3",
+        "path": "/guiding-principles/curious/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-principles-designers-f5b",
+        "path": "/guiding-principles/designers/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-principles-developers-815",
+        "path": "/guiding-principles/developers/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-principles-governance-a83",
+        "path": "/guiding-principles/governance/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-principles-make-to-learn-b9e",
+        "path": "/guiding-principles/make-to-learn/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-principles-make-5a5",
+        "path": "/guiding-principles/make/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-principles-overview-467",
+        "path": "/guiding-principles/overview/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-principles-research-as-a-team-ccd",
+        "path": "/guiding-principles/research-as-a-team/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-principles-stay-curious-115",
+        "path": "/guiding-principles/stay-curious/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guiding-principles-team-d2f",
+        "path": "/guiding-principles/team/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "help-7ab",
+        "path": "/help/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
         "jsonName": "help-faq-6a3",
         "path": "/help/faq/"
     },
@@ -900,9 +1010,29 @@
         "path": "/help/support/"
     },
     {
-        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-        "jsonName": "offline-plugin-app-shell-fallback-a30",
-        "path": "/offline-plugin-app-shell-fallback/"
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "in-practice-craft-insights-e24",
+        "path": "/in-practice/craft-insights/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "in-practice-find-the-story-3f6",
+        "path": "/in-practice/find-the-story/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "in-practice-overview-ac3",
+        "path": "/in-practice/overview/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "in-practice-success-940",
+        "path": "/in-practice/success/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "in-practice-users-939",
+        "path": "/in-practice/users/"
     },
     {
         "componentChunkName": "component---src-templates-page-js",
@@ -933,6 +1063,271 @@
         "componentChunkName": "component---src-templates-page-js",
         "jsonName": "patterns-overview-1fc",
         "path": "/patterns/overview/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-f07",
+        "path": "/research-in-practice/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-accessibility-0ae",
+        "path": "/research-in-practice/accessibility/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-accessibility-color-e4c",
+        "path": "/research-in-practice/accessibility/color"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-accessibility-developers-ad9",
+        "path": "/research-in-practice/accessibility/developers"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-accessibility-keyboard-9e3",
+        "path": "/research-in-practice/accessibility/keyboard"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-accessibility-overview-0e0",
+        "path": "/research-in-practice/accessibility/overview"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-color-88c",
+        "path": "/research-in-practice/color/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-color-overview-895",
+        "path": "/research-in-practice/color/overview"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-color-usage-553",
+        "path": "/research-in-practice/color/usage"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-content-0eb",
+        "path": "/research-in-practice/content/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-content-general-99b",
+        "path": "/research-in-practice/content/general"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-content-glossary-318",
+        "path": "/research-in-practice/content/glossary"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-content-guidance-38b",
+        "path": "/research-in-practice/content/guidance"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-craft-insights-d31",
+        "path": "/research-in-practice/craft-insights/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-craft-insights-contribution-168",
+        "path": "/research-in-practice/craft-insights/contribution"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-craft-insights-craft-insights-002",
+        "path": "/research-in-practice/craft-insights/craft-insights"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-craft-insights-library-aff",
+        "path": "/research-in-practice/craft-insights/library"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-craft-insights-usage-941",
+        "path": "/research-in-practice/craft-insights/usage"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-find-the-story-1-f1a",
+        "path": "/research-in-practice/find-the-story.1/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-find-the-story-c5c",
+        "path": "/research-in-practice/find-the-story/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-iconography-9af",
+        "path": "/research-in-practice/iconography/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-iconography-contribution-12e",
+        "path": "/research-in-practice/iconography/contribution"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-iconography-library-1de",
+        "path": "/research-in-practice/iconography/library"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-iconography-usage-7ed",
+        "path": "/research-in-practice/iconography/usage"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-insights-908",
+        "path": "/research-in-practice/insights/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-know-your-users-30f",
+        "path": "/research-in-practice/know-your-users/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-know-your-users-overview-c97",
+        "path": "/research-in-practice/know-your-users/overview"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-know-your-users-usage-c58",
+        "path": "/research-in-practice/know-your-users/usage"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-layout-8f1",
+        "path": "/research-in-practice/layout/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-make-to-learn-d3d",
+        "path": "/research-in-practice/make-to-learn/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-motion-3c1",
+        "path": "/research-in-practice/motion/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-motion-basics-702",
+        "path": "/research-in-practice/motion/basics"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-motion-choreography-d12",
+        "path": "/research-in-practice/motion/choreography"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-motion-resources-143",
+        "path": "/research-in-practice/motion/resources"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-overview-2cf",
+        "path": "/research-in-practice/overview/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-overview-color-ad8",
+        "path": "/research-in-practice/overview/color"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-overview-developers-7ec",
+        "path": "/research-in-practice/overview/developers"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-overview-keyboard-6e2",
+        "path": "/research-in-practice/overview/keyboard"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-overview-overview-233",
+        "path": "/research-in-practice/overview/overview"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-plan-for-success-6b6",
+        "path": "/research-in-practice/plan-for-success/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-plan-for-success-general-015",
+        "path": "/research-in-practice/plan-for-success/general"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-plan-for-success-glossary-472",
+        "path": "/research-in-practice/plan-for-success/glossary"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-plan-for-success-guidance-675",
+        "path": "/research-in-practice/plan-for-success/guidance"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-research-as-a-team-8c2",
+        "path": "/research-in-practice/research-as-a-team/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-spacing-20d",
+        "path": "/research-in-practice/spacing/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-stay-curious-ca3",
+        "path": "/research-in-practice/stay-curious/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-story-80e",
+        "path": "/research-in-practice/story/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-success-f60",
+        "path": "/research-in-practice/success/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-themes-86a",
+        "path": "/research-in-practice/themes/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-typography-3c4",
+        "path": "/research-in-practice/typography/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-typography-overview-6eb",
+        "path": "/research-in-practice/typography/overview"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-typography-productive-e7e",
+        "path": "/research-in-practice/typography/productive"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "research-in-practice-users-49d",
+        "path": "/research-in-practice/users/"
     },
     {
         "componentChunkName": "component---src-templates-page-js",

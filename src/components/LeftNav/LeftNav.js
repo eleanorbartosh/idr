@@ -77,17 +77,15 @@ export default class LeftNav extends React.Component {
                   <hr className="bx--side-nav__divider" />
                   <SideNavLink
                     icon={<Launch16 />}
-                    href="https://github.com/ibm/carbon-design-kit"
+                    href="https://medium.com/design-ibm"
                     className="bx--side-nav--website-link">
-                    Design Kit
+                    Medium
                   </SideNavLink>
                   <SideNavLink
                     icon={<Launch16 />}
-                    href="javascript:void(0)"
-                    to="/resources#github-repos"
-                    className="bx--side-nav--website-link"
-                    element={Link}>
-                    GitHub Repos
+                    href="http://idr-prod.w3ibm.mybluemix.net/design/research/resources/"
+                    className="bx--side-nav--website-link">
+                    W3 Design Research
                   </SideNavLink>
                 </SideNavItems>
               </SideNav>
