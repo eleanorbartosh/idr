@@ -1,17 +1,5 @@
 [
   {
-    "fromPath": "/experimental/ui-shell/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/experimental/ui-shell/code"
-  },
-  {
-    "fromPath": "/experimental/ui-shell",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/experimental/ui-shell/code"
-  },
-  {
     "fromPath": "/experimental/about/",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -24,28 +12,16 @@
     "toPath": "/experimental/about/overview"
   },
   {
-    "fromPath": "/components/checkbox/",
+    "fromPath": "/experimental/ui-shell/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/components/checkbox/code"
+    "toPath": "/experimental/ui-shell/code"
   },
   {
-    "fromPath": "/components/checkbox",
+    "fromPath": "/experimental/ui-shell",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/components/checkbox/code"
-  },
-  {
-    "fromPath": "/components/accordion/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/components/accordion/code"
-  },
-  {
-    "fromPath": "/components/accordion",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/components/accordion/code"
+    "toPath": "/experimental/ui-shell/code"
   },
   {
     "fromPath": "/components/breadcrumb/",
@@ -72,28 +48,28 @@
     "toPath": "/components/button/code"
   },
   {
-    "fromPath": "/components/content-switcher/",
+    "fromPath": "/components/checkbox/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/components/content-switcher/code"
+    "toPath": "/components/checkbox/code"
   },
   {
-    "fromPath": "/components/content-switcher",
+    "fromPath": "/components/checkbox",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/components/content-switcher/code"
+    "toPath": "/components/checkbox/code"
   },
   {
-    "fromPath": "/components/data-table/",
+    "fromPath": "/components/accordion/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/components/data-table/code"
+    "toPath": "/components/accordion/code"
   },
   {
-    "fromPath": "/components/data-table",
+    "fromPath": "/components/accordion",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/components/data-table/code"
+    "toPath": "/components/accordion/code"
   },
   {
     "fromPath": "/components/code-snippet/",
@@ -120,28 +96,28 @@
     "toPath": "/components/code"
   },
   {
-    "fromPath": "/components/dropdown/",
+    "fromPath": "/components/data-table/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/components/dropdown/code"
+    "toPath": "/components/data-table/code"
   },
   {
-    "fromPath": "/components/dropdown",
+    "fromPath": "/components/data-table",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/components/dropdown/code"
+    "toPath": "/components/data-table/code"
   },
   {
-    "fromPath": "/components/date-picker/",
+    "fromPath": "/components/content-switcher/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/components/date-picker/code"
+    "toPath": "/components/content-switcher/code"
   },
   {
-    "fromPath": "/components/date-picker",
+    "fromPath": "/components/content-switcher",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/components/date-picker/code"
+    "toPath": "/components/content-switcher/code"
   },
   {
     "fromPath": "/components/file-uploader/",
@@ -156,6 +132,18 @@
     "toPath": "/components/file-uploader/code"
   },
   {
+    "fromPath": "/components/dropdown/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/dropdown/code"
+  },
+  {
+    "fromPath": "/components/dropdown",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/dropdown/code"
+  },
+  {
     "fromPath": "/components/form/",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -166,6 +154,18 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/components/form/code"
+  },
+  {
+    "fromPath": "/components/date-picker/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/date-picker/code"
+  },
+  {
+    "fromPath": "/components/date-picker",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/date-picker/code"
   },
   {
     "fromPath": "/components/inline-loading/",
@@ -204,18 +204,6 @@
     "toPath": "/components/list/code"
   },
   {
-    "fromPath": "/components/loading/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/components/loading/code"
-  },
-  {
-    "fromPath": "/components/loading",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/components/loading/code"
-  },
-  {
     "fromPath": "/components/modal/",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -226,6 +214,18 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/components/modal/code"
+  },
+  {
+    "fromPath": "/components/loading/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/loading/code"
+  },
+  {
+    "fromPath": "/components/loading",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/loading/code"
   },
   {
     "fromPath": "/components/notification/",
@@ -288,18 +288,6 @@
     "toPath": "/components/radio-button/code"
   },
   {
-    "fromPath": "/components/progress-indicator/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/components/progress-indicator/code"
-  },
-  {
-    "fromPath": "/components/progress-indicator",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/components/progress-indicator/code"
-  },
-  {
     "fromPath": "/components/search/",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -310,6 +298,18 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/components/search/code"
+  },
+  {
+    "fromPath": "/components/progress-indicator/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/progress-indicator/code"
+  },
+  {
+    "fromPath": "/components/progress-indicator",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/progress-indicator/code"
   },
   {
     "fromPath": "/components/select/",
@@ -324,18 +324,6 @@
     "toPath": "/components/select/code"
   },
   {
-    "fromPath": "/components/tabs/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/components/tabs/code"
-  },
-  {
-    "fromPath": "/components/tabs",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/components/tabs/code"
-  },
-  {
     "fromPath": "/components/slider/",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -348,18 +336,6 @@
     "toPath": "/components/slider/code"
   },
   {
-    "fromPath": "/components/tag/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/components/tag/code"
-  },
-  {
-    "fromPath": "/components/tag",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/components/tag/code"
-  },
-  {
     "fromPath": "/components/structured-list/",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -370,6 +346,30 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/components/structured-list/code"
+  },
+  {
+    "fromPath": "/components/tabs/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/tabs/code"
+  },
+  {
+    "fromPath": "/components/tabs",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/tabs/code"
+  },
+  {
+    "fromPath": "/components/tag/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/tag/code"
+  },
+  {
+    "fromPath": "/components/tag",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/tag/code"
   },
   {
     "fromPath": "/components/text-input/",
@@ -396,18 +396,6 @@
     "toPath": "/components/tile/code"
   },
   {
-    "fromPath": "/components/tooltip/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/components/tooltip/code"
-  },
-  {
-    "fromPath": "/components/tooltip",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/components/tooltip/code"
-  },
-  {
     "fromPath": "/components/toggle/",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -418,6 +406,18 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/components/toggle/code"
+  },
+  {
+    "fromPath": "/components/tooltip/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/tooltip/code"
+  },
+  {
+    "fromPath": "/components/tooltip",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/tooltip/code"
   },
   {
     "fromPath": "/guidelines/content/",
@@ -456,6 +456,18 @@
     "toPath": "/guidelines/typography/overview"
   },
   {
+    "fromPath": "/updates/v10-migration/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/updates/v10-migration/overview"
+  },
+  {
+    "fromPath": "/updates/v10-migration",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/updates/v10-migration/overview"
+  },
+  {
     "fromPath": "/updates/release-information/",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -480,28 +492,16 @@
     "toPath": "/your-product-on-ibm-cloud/service-providers/general"
   },
   {
-    "fromPath": "/updates/v10-migration/",
+    "fromPath": "/getting-started/developers/",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/updates/v10-migration/overview"
+    "toPath": "/getting-started/developers/vanilla"
   },
   {
-    "fromPath": "/updates/v10-migration",
+    "fromPath": "/getting-started/developers",
     "isPermanent": false,
     "redirectInBrowser": true,
-    "toPath": "/updates/v10-migration/overview"
-  },
-  {
-    "fromPath": "/guidelines/color/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/guidelines/color/overview"
-  },
-  {
-    "fromPath": "/guidelines/color",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/guidelines/color/overview"
+    "toPath": "/getting-started/developers/vanilla"
   },
   {
     "fromPath": "/guidelines/accessibility/",
@@ -516,6 +516,18 @@
     "toPath": "/guidelines/accessibility/overview"
   },
   {
+    "fromPath": "/guidelines/color/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/guidelines/color/overview"
+  },
+  {
+    "fromPath": "/guidelines/color",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/guidelines/color/overview"
+  },
+  {
     "fromPath": "/guidelines/motion/",
     "isPermanent": false,
     "redirectInBrowser": true,
@@ -526,17 +538,5 @@
     "isPermanent": false,
     "redirectInBrowser": true,
     "toPath": "/guidelines/motion/basics"
-  },
-  {
-    "fromPath": "/getting-started/developers/",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/getting-started/developers/vanilla"
-  },
-  {
-    "fromPath": "/getting-started/developers",
-    "isPermanent": false,
-    "redirectInBrowser": true,
-    "toPath": "/getting-started/developers/vanilla"
   }
 ]

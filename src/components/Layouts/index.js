@@ -222,12 +222,12 @@ class Layout extends React.Component {
                 {
                   name: 'description',
                   content:
-                    'Carbon is the design system for IBM web and product. It is a series of individual styles, components, and guidelines used for creating unified UI.',
+                    'IBM Design Research helps teams uncover insights and inform the experiences we create for people. It is at the heart of Enterprise Design thinking.',
                 },
                 {
                   name: 'keywords',
                   content:
-                    'IBM, design, system, Carbon, design system, Bluemix, styleguide, style, guide, components, library, pattern, kit, component, cloud',
+                    'IBM, design, research, design research, design thinking, human-centered design, interviewing, user research, interviews, user experience research, service design, ux research, design strategy, people, practice, observation, user interviews, anthropology',
                 },
               ]}
               link={[
@@ -239,25 +239,6 @@ class Layout extends React.Component {
               ]}>
               <html lang="en" />
             </Helmet>
-            <aside aria-label="alert banner" className="website-alert">
-              <Information20 className="website-alert__icon" />
-              <p className="website-alert__text">
-                <span>Carbon v10 is live!</span>
-                <span />{' '}
-                <span>View the migration guide to upgrade from v9.</span>
-              </p>
-              <Link
-                className="website-alert__button"
-                tabIndex="-1"
-                to="/updates/v10-migration/overview">
-                <button
-                  class="bx--btn bx--btn--secondary bx--btn--sm"
-                  type="button">
-                  <span>Migrate to v10</span>
-                  <ArrowRight20 />
-                </button>
-              </Link>
-            </aside>
             <Header aria-label="Header" className="bx--header--website">
               <SkipToContent />
               <HeaderMenuButton
@@ -275,11 +256,11 @@ class Layout extends React.Component {
               />
               {isInternal ? (
                 <HeaderName prefix="" to="/" element={Link}>
-                  Carbon&nbsp;<span>Design System</span>
+                  IBM&nbsp;<span>Design Research</span>
                 </HeaderName>
               ) : (
                 <HeaderName prefix="" to="/" element={Link}>
-                  Carbon&nbsp;<span>Design System</span>
+                  IBM&nbsp;<span>Design Research</span>
                 </HeaderName>
               )}
               <HeaderGlobalBar>
