@@ -1,26 +1,15 @@
 {
-  "getting-started": {
-    "title": "Getting started",
-    "sub-nav": {
-      "about-carbon": {
-        "title": "About Carbon"
-      },
-      "designers": {
-        "title": "Designers"
-      },
-      "developers": {
-        "title": "Developers"
-      }
-    }
+  "/": {
+    "title": "Overview"
   },
   "guidelines": {
-    "title": "Guidelines",
+    "title": "Guiding Principles",
     "sub-nav": {
       "accessibility": {
         "title": "Accessibility"
       },
-      "content": {
-        "title": "Content"
+      "team": {
+        "title": "Research as a team"
       },
       "color": {
         "title": "Color"

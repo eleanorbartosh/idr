@@ -690,6 +690,11 @@
         "path": "/contributing/governance/"
     },
     {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "jsonName": "dev-404-page-5f9",
+        "path": "/dev-404-page/"
+    },
+    {
         "componentChunkName": "component---src-templates-page-js",
         "jsonName": "experimental-about-2eb",
         "path": "/experimental/about/"
@@ -721,131 +726,6 @@
     },
     {
         "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "getting-started-about-carbon-25d",
-        "path": "/getting-started/about-carbon/"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "getting-started-designers-569",
-        "path": "/getting-started/designers/"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "getting-started-developers-735",
-        "path": "/getting-started/developers/"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "getting-started-developers-angular-c1a",
-        "path": "/getting-started/developers/angular"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "getting-started-developers-other-frameworks-093",
-        "path": "/getting-started/developers/other-frameworks"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "getting-started-developers-react-84b",
-        "path": "/getting-started/developers/react"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "getting-started-developers-vanilla-2d9",
-        "path": "/getting-started/developers/vanilla"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "getting-started-developers-vue-998",
-        "path": "/getting-started/developers/vue"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-accessibility-5a5",
-        "path": "/guidelines/accessibility/"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-accessibility-color-572",
-        "path": "/guidelines/accessibility/color"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-accessibility-developers-dd0",
-        "path": "/guidelines/accessibility/developers"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-accessibility-keyboard-658",
-        "path": "/guidelines/accessibility/keyboard"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-accessibility-overview-e2a",
-        "path": "/guidelines/accessibility/overview"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-color-d31",
-        "path": "/guidelines/color/"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-color-overview-788",
-        "path": "/guidelines/color/overview"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-color-usage-e94",
-        "path": "/guidelines/color/usage"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-content-9d7",
-        "path": "/guidelines/content/"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-content-general-f1f",
-        "path": "/guidelines/content/general"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-content-glossary-c0d",
-        "path": "/guidelines/content/glossary"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-content-guidance-c7b",
-        "path": "/guidelines/content/guidance"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-iconography-1f1",
-        "path": "/guidelines/iconography/"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-iconography-contribution-c76",
-        "path": "/guidelines/iconography/contribution"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-iconography-library-61a",
-        "path": "/guidelines/iconography/library"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-iconography-usage-70a",
-        "path": "/guidelines/iconography/usage"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
-        "jsonName": "guidelines-layout-90e",
-        "path": "/guidelines/layout/"
-    },
-    {
-        "componentChunkName": "component---src-templates-page-js",
         "jsonName": "guidelines-motion-fd0",
         "path": "/guidelines/motion/"
     },
@@ -866,8 +746,23 @@
     },
     {
         "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guidelines-overview-53f",
+        "path": "/guidelines/overview/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guidelines-overview-overview-463",
+        "path": "/guidelines/overview/overview"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
         "jsonName": "guidelines-spacing-e2e",
         "path": "/guidelines/spacing/"
+    },
+    {
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "guidelines-team-cc7",
+        "path": "/guidelines/team/"
     },
     {
         "componentChunkName": "component---src-templates-page-js",
@@ -900,9 +795,9 @@
         "path": "/help/support/"
     },
     {
-        "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
-        "jsonName": "offline-plugin-app-shell-fallback-a30",
-        "path": "/offline-plugin-app-shell-fallback/"
+        "componentChunkName": "component---src-templates-page-js",
+        "jsonName": "overview-3ea",
+        "path": "/overview/"
     },
     {
         "componentChunkName": "component---src-templates-page-js",
