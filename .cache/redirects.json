@@ -1,5 +1,533 @@
 [
   {
+    "fromPath": "/experimental/ui-shell/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/experimental/ui-shell/code"
+  },
+  {
+    "fromPath": "/experimental/ui-shell",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/experimental/ui-shell/code"
+  },
+  {
+    "fromPath": "/experimental/about/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/experimental/about/overview"
+  },
+  {
+    "fromPath": "/experimental/about",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/experimental/about/overview"
+  },
+  {
+    "fromPath": "/components/checkbox/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/checkbox/code"
+  },
+  {
+    "fromPath": "/components/checkbox",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/checkbox/code"
+  },
+  {
+    "fromPath": "/components/accordion/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/accordion/code"
+  },
+  {
+    "fromPath": "/components/accordion",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/accordion/code"
+  },
+  {
+    "fromPath": "/components/breadcrumb/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/breadcrumb/code"
+  },
+  {
+    "fromPath": "/components/breadcrumb",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/breadcrumb/code"
+  },
+  {
+    "fromPath": "/components/button/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/button/code"
+  },
+  {
+    "fromPath": "/components/button",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/button/code"
+  },
+  {
+    "fromPath": "/components/content-switcher/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/content-switcher/code"
+  },
+  {
+    "fromPath": "/components/content-switcher",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/content-switcher/code"
+  },
+  {
+    "fromPath": "/components/data-table/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/data-table/code"
+  },
+  {
+    "fromPath": "/components/data-table",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/data-table/code"
+  },
+  {
+    "fromPath": "/components/code-snippet/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/code-snippet/code"
+  },
+  {
+    "fromPath": "/components/code-snippet",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/code-snippet/code"
+  },
+  {
+    "fromPath": "/components/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/code"
+  },
+  {
+    "fromPath": "/components",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/code"
+  },
+  {
+    "fromPath": "/components/dropdown/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/dropdown/code"
+  },
+  {
+    "fromPath": "/components/dropdown",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/dropdown/code"
+  },
+  {
+    "fromPath": "/components/date-picker/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/date-picker/code"
+  },
+  {
+    "fromPath": "/components/date-picker",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/date-picker/code"
+  },
+  {
+    "fromPath": "/components/file-uploader/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/file-uploader/code"
+  },
+  {
+    "fromPath": "/components/file-uploader",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/file-uploader/code"
+  },
+  {
+    "fromPath": "/components/form/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/form/code"
+  },
+  {
+    "fromPath": "/components/form",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/form/code"
+  },
+  {
+    "fromPath": "/components/inline-loading/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/inline-loading/code"
+  },
+  {
+    "fromPath": "/components/inline-loading",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/inline-loading/code"
+  },
+  {
+    "fromPath": "/components/link/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/link/code"
+  },
+  {
+    "fromPath": "/components/link",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/link/code"
+  },
+  {
+    "fromPath": "/components/list/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/list/code"
+  },
+  {
+    "fromPath": "/components/list",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/list/code"
+  },
+  {
+    "fromPath": "/components/loading/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/loading/code"
+  },
+  {
+    "fromPath": "/components/loading",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/loading/code"
+  },
+  {
+    "fromPath": "/components/modal/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/modal/code"
+  },
+  {
+    "fromPath": "/components/modal",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/modal/code"
+  },
+  {
+    "fromPath": "/components/notification/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/notification/code"
+  },
+  {
+    "fromPath": "/components/notification",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/notification/code"
+  },
+  {
+    "fromPath": "/components/number-input/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/number-input/code"
+  },
+  {
+    "fromPath": "/components/number-input",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/number-input/code"
+  },
+  {
+    "fromPath": "/components/overflow-menu/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/overflow-menu/code"
+  },
+  {
+    "fromPath": "/components/overflow-menu",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/overflow-menu/code"
+  },
+  {
+    "fromPath": "/components/pagination/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/pagination/code"
+  },
+  {
+    "fromPath": "/components/pagination",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/pagination/code"
+  },
+  {
+    "fromPath": "/components/radio-button/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/radio-button/code"
+  },
+  {
+    "fromPath": "/components/radio-button",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/radio-button/code"
+  },
+  {
+    "fromPath": "/components/progress-indicator/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/progress-indicator/code"
+  },
+  {
+    "fromPath": "/components/progress-indicator",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/progress-indicator/code"
+  },
+  {
+    "fromPath": "/components/search/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/search/code"
+  },
+  {
+    "fromPath": "/components/search",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/search/code"
+  },
+  {
+    "fromPath": "/components/select/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/select/code"
+  },
+  {
+    "fromPath": "/components/select",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/select/code"
+  },
+  {
+    "fromPath": "/components/tabs/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/tabs/code"
+  },
+  {
+    "fromPath": "/components/tabs",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/tabs/code"
+  },
+  {
+    "fromPath": "/components/slider/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/slider/code"
+  },
+  {
+    "fromPath": "/components/slider",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/slider/code"
+  },
+  {
+    "fromPath": "/components/tag/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/tag/code"
+  },
+  {
+    "fromPath": "/components/tag",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/tag/code"
+  },
+  {
+    "fromPath": "/components/structured-list/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/structured-list/code"
+  },
+  {
+    "fromPath": "/components/structured-list",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/structured-list/code"
+  },
+  {
+    "fromPath": "/components/text-input/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/text-input/code"
+  },
+  {
+    "fromPath": "/components/text-input",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/text-input/code"
+  },
+  {
+    "fromPath": "/components/tile/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/tile/code"
+  },
+  {
+    "fromPath": "/components/tile",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/tile/code"
+  },
+  {
+    "fromPath": "/components/tooltip/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/tooltip/code"
+  },
+  {
+    "fromPath": "/components/tooltip",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/tooltip/code"
+  },
+  {
+    "fromPath": "/components/toggle/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/toggle/code"
+  },
+  {
+    "fromPath": "/components/toggle",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/components/toggle/code"
+  },
+  {
+    "fromPath": "/guidelines/content/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/guidelines/content/general"
+  },
+  {
+    "fromPath": "/guidelines/content",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/guidelines/content/general"
+  },
+  {
+    "fromPath": "/guidelines/iconography/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/guidelines/iconography/library"
+  },
+  {
+    "fromPath": "/guidelines/iconography",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/guidelines/iconography/library"
+  },
+  {
+    "fromPath": "/guidelines/typography/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/guidelines/typography/overview"
+  },
+  {
+    "fromPath": "/guidelines/typography",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/guidelines/typography/overview"
+  },
+  {
+    "fromPath": "/updates/release-information/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/updates/release-information/highlights"
+  },
+  {
+    "fromPath": "/updates/release-information",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/updates/release-information/highlights"
+  },
+  {
+    "fromPath": "/your-product-on-ibm-cloud/service-providers/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/your-product-on-ibm-cloud/service-providers/general"
+  },
+  {
+    "fromPath": "/your-product-on-ibm-cloud/service-providers",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/your-product-on-ibm-cloud/service-providers/general"
+  },
+  {
+    "fromPath": "/updates/v10-migration/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/updates/v10-migration/overview"
+  },
+  {
+    "fromPath": "/updates/v10-migration",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/updates/v10-migration/overview"
+  },
+  {
+    "fromPath": "/guidelines/color/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/guidelines/color/overview"
+  },
+  {
+    "fromPath": "/guidelines/color",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/guidelines/color/overview"
+  },
+  {
+    "fromPath": "/guidelines/accessibility/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/guidelines/accessibility/overview"
+  },
+  {
+    "fromPath": "/guidelines/accessibility",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/guidelines/accessibility/overview"
+  },
+  {
+    "fromPath": "/guidelines/motion/",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/guidelines/motion/basics"
+  },
+  {
+    "fromPath": "/guidelines/motion",
+    "isPermanent": false,
+    "redirectInBrowser": true,
+    "toPath": "/guidelines/motion/basics"
+  },
+  {
     "fromPath": "/getting-started/developers/",
     "isPermanent": false,
     "redirectInBrowser": true,

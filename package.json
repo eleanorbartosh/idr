@@ -1,12 +1,12 @@
 {
   "name": "carbon-website-gatsby",
-  "description": "IBM Design Research website",
+  "description": "Carbon Design System website",
   "private": true,
   "version": "0.0.0",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/IBM-Design/idr"
+    "url": "https://github.com/carbon-design-system/carbon-website/"
   },
   "keywords": [
     "gatsby"

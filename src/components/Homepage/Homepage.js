@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 
 export class HomepageHeader extends React.Component {
   componentDidMount() {
-    document.title = 'IBM Design Research';
+    document.title = 'Carbon Design System';
   }
 
   render() {
@@ -16,15 +16,15 @@ export class HomepageHeader extends React.Component {
     const homeTitle = isInternal ? (
       <h3 className="homepage--header__title">
         <span>
-          IBM <br />
-          Design Research
+          Carbon <br />
+          Design System
         </span>
       </h3>
     ) : (
       <h3 className="homepage--header__title">
         <span>
-          IBM <br />
-          Design Research
+          Carbon <br />
+          Design System
         </span>
       </h3>
     );

@@ -87,8 +87,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `IBM Design Research`,
-        short_name: `IDR`,
+        name: `Carbon Design System`,
+        short_name: `Carbon`,
         start_url: `/`,
         background_color: `#000000`,
         theme_color: `#cccccc`,
