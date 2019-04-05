@@ -8,7 +8,6 @@ module.exports = {
   pathPrefix: PATH_PREFIX,
   siteMetadata: {
     title: 'IBM Design Research',
-    titleInternal: 'IBM Design Research',
     siteUrl: 'https://www.ibm.com/design/research',
   },
   plugins: [
@@ -24,9 +23,6 @@ module.exports = {
         import { ImageComponent } from '@carbon/addons-website';
         import ClickableTile from '${__dirname}/src/components/ClickableTile';
         import ColorBlock from '${__dirname}/src/components/ColorBlock';
-        import ComponentCode from '${__dirname}/src/components/ComponentCode';
-        import ComponentDocs from '${__dirname}/src/components/ComponentDocs';
-        import ComponentReact from '${__dirname}/src/components/ComponentReact';
         import DoDontExample from '${__dirname}/src/components/DoDontExample';
         import WebsiteTabs from '${__dirname}/src/components/WebsiteTabs'; 
         import FeatureTile from '${__dirname}/src/components/FeatureTile';
@@ -39,9 +35,6 @@ module.exports = {
           ImageComponent,
           ClickableTile,
           ColorBlock,
-          ComponentCode,
-          ComponentDocs,
-          ComponentReact,
           DoDontExample,
           WebsiteTabs,
           FeatureTile,

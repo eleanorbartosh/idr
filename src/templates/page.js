@@ -23,19 +23,10 @@ export default ({ data }) => {
   let currentPage = post.fields.currentPage;
   let slug = post.fields.slug;
   let tabs = post.frontmatter.tabs;
-  let internal = post.frontmatter.internal;
 
-  const { GATSBY_CARBON_ENV } = process.env;
-  const isInternal = GATSBY_CARBON_ENV !== 'internal' && internal == true;
   const homepage = (post.frontmatter.title === 'Homepage') == true;
 
-  if (isInternal) {
-    return (
-      <Layout>
-        <FourOhFour />
-      </Layout>
-    );
-  } else if (homepage) {
+  if (homepage) {
     if (typeof document !== 'undefined') {
       document.body.style.background = '#282828';
     }
@@ -95,7 +86,6 @@ export const query = graphql`
         title
         label
         tabs
-        internal
       }
     }
   }
