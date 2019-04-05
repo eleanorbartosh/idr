@@ -183,8 +183,6 @@ class Layout extends React.Component {
   };
 
   render() {
-    const { GATSBY_CARBON_ENV } = process.env;
-    const isInternal = GATSBY_CARBON_ENV == 'internal';
     const { children } = this.props;
     const version = Packages.dependencies['carbon-components'];
     const reactVersion = Packages.dependencies['carbon-components-react'];
@@ -205,7 +203,6 @@ class Layout extends React.Component {
             site {
               siteMetadata {
                 title
-                titleInternal
               }
             }
           }
@@ -213,11 +210,7 @@ class Layout extends React.Component {
         render={data => (
           <>
             <Helmet
-              title={
-                isInternal
-                  ? data.site.siteMetadata.titleInternal
-                  : data.site.siteMetadata.title
-              }
+              title={data.site.siteMetadata.title}
               meta={[
                 {
                   name: 'description',
@@ -254,17 +247,12 @@ class Layout extends React.Component {
                 }
                 isActive={isLeftNavOpen}
               />
-              {isInternal ? (
-                <HeaderName prefix="" to="/" element={Link}>
-                  IBM&nbsp;<span>Design Research</span>
-                </HeaderName>
-              ) : (
-                <HeaderName prefix="" to="/" element={Link}>
-                  IBM&nbsp;<span>Design Research</span>
-                </HeaderName>
-              )}
+
+              <HeaderName prefix="" to="/" element={Link}>
+                IBM&nbsp;<span>Design Research</span>
+              </HeaderName>
+
               <HeaderGlobalBar>
-                {/* {isInternal ? null : <GlobalSearch />} */}
                 {this.state.isSearchOpen ? (
                   <GlobalSearch />
                 ) : (
