@@ -10,7 +10,7 @@ import { FourOhFour, WebsiteBackToTopBtn } from '@carbon/addons-website';
 
 // Components
 import PageHeader from '../components/PageHeader';
-import PageTabs from '../components/PageTabs';
+
 import NextPrevious from '../components/NextPrevious';
 
 import {
@@ -52,11 +52,8 @@ export default ({ data }) => {
       <Layout>
         <PageHeader
           title={post.frontmatter.title}
-          label={post.frontmatter.label}>
-          {!(tabs === null) && (
-            <PageTabs slug={slug} currentTab={currentPage} tabs={tabs} />
-          )}
-        </PageHeader>
+          label={post.frontmatter.label}
+        />
         <main className="page-content ibm--grid" id="maincontent">
           <MDXRenderer>{post.code.body}</MDXRenderer>
           <EditLink slug={slug} />
@@ -85,7 +82,6 @@ export const query = graphql`
       frontmatter {
         title
         label
-        tabs
       }
     }
   }

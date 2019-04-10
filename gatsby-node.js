@@ -42,15 +42,9 @@ exports.createPages = ({ actions, graphql }) => {
       allMdx {
         edges {
           node {
-            code {
-              scope
-            }
             fields {
               slug
               currentPage
-            }
-            frontmatter {
-              tabs
             }
           }
         }
@@ -60,11 +54,7 @@ exports.createPages = ({ actions, graphql }) => {
     result.data.allMdx.edges.forEach(({ node }) => {
       const slug = node.fields.slug;
       const currentPage = node.fields.currentPage;
-      const tabs = node.frontmatter.tabs === null ? [] : node.frontmatter.tabs;
-      let currentPath =
-        node.frontmatter.tabs === null
-          ? slug.slice(0, slug.lastIndexOf(currentPage))
-          : slug;
+      let currentPath = slug.slice(0, slug.lastIndexOf(currentPage));
       createPage({
         path: currentPath,
         component: path.resolve(`./src/templates/page.js`),
@@ -73,34 +63,6 @@ exports.createPages = ({ actions, graphql }) => {
           currentPage,
         },
       });
-      if (tabs.length > 1) {
-        const current = tabs[0]
-          .toLowerCase()
-          .split(' ')
-          .join('-');
-        const lastIndex = currentPath.lastIndexOf(current);
-        if (lastIndex >= 0) {
-          currentPath = currentPath.slice(0, currentPath.lastIndexOf(current));
-          createPage({
-            path: currentPath,
-            component: path.resolve(`./src/templates/page.js`),
-            context: {
-              slug,
-              currentPage: `${currentPath}${current}`,
-            },
-          });
-          createRedirect({
-            fromPath: `${currentPath}`,
-            redirectInBrowser: true,
-            toPath: `${currentPath}${current}`,
-          });
-          createRedirect({
-            fromPath: `${currentPath.slice(0, currentPath.length - 1)}`,
-            redirectInBrowser: true,
-            toPath: `${currentPath}${current}`,
-          });
-        }
-      }
     });
   });
 };
