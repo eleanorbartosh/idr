@@ -39,18 +39,23 @@
 }
 
 .container--homepage h3.homepage--header__title {
-  @include carbon--type-style('expressive-heading-03', true);
+  @include carbon--type-style('expressive-heading-05', true);
   display: none;
-  font-weight: 600;
+  font-weight: 300;
   position: absolute;
   bottom: 3.5rem;
   padding-bottom: 0;
   margin-bottom: 0;
   z-index: 3;
+  width: 36%;
 
   @include carbon--breakpoint('md') {
     display: block;
   }
+}
+
+.homepage--header__title_style {
+  color: $carbon--magenta-40;
 }
 
 .homepage--header img {

@@ -11,11 +11,13 @@ export class HomepageHeader extends React.Component {
     // Banner image
     const bannerImg = require('../../content/homepage/images/homepage_img.jpg');
 
-    const homeTitle =  (
+    const homeTitle = (
       <h3 className="homepage--header__title">
         <span>
-          Carbon <br />
-          Design System
+          An authentic focus on people begins with acknowledging,{' '}
+          <span className="homepage--header__title_style">
+            we are not our users.
+          </span>{' '}
         </span>
       </h3>
     );
@@ -36,20 +38,21 @@ export class HomepageHeader extends React.Component {
             <div className="ibm--row">
               <aside
                 aria-label="header callout"
-                className="ibm--col-md-4  ibm--col-lg-4 ibm--offset-lg-4">
-                <h3>
-                  Inclusive, flexible
+                className="ibm--col-md-8 ibm--col-lg-8 ibm--offset-lg-4">
+                <h4
+                  className="bx--type-heading-02"
+                  style={{ marginBottom: `25px` }}>
+                  What is Design
                   <br />
-                  and consistent
-                </h3>
+                  Research
+                </h4>
               </aside>
-              <div className="ibm--col-lg-8 ibm--col-md-4">
+              <div className="ibm--col-lg-8 ibm--col-md-4 ibm--offset-lg-4">
                 <p className="bx--type-expressive-paragraph-01">
-                  The <strong>Carbon Design System</strong> is IBM&rsquo;s
-                  open-source design system for products and experiences. With
-                  the IBM Design Language as its foundation, the system consists
-                  of working code, design tools and resources, human interface
-                  guidelines, and a vibrant community of contributors.
+                  The practice of design research incorporates a rigorous study
+                  of people and the ecosystems in which they exist. Through the
+                  practice, teams continuously build understanding and empathy
+                  through empirical observation, experience, and making.
                 </p>
               </div>
             </div>
