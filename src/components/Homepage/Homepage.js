@@ -24,7 +24,6 @@ export class HomepageHeader extends React.Component {
 
     return (
       <div>
-        <span className="homepage--dots" />
         <section className="homepage--header">
           <div className="ibm--grid">
             <div className="ibm--row">
@@ -41,7 +40,7 @@ export class HomepageHeader extends React.Component {
                 className="ibm--col-md-8 ibm--col-lg-8 ibm--offset-lg-4">
                 <h4
                   className="bx--type-heading-02"
-                  style={{ marginBottom: `25px` }}>
+                  style={{ marginBottom: `2rem` }}>
                   What is Design
                   <br />
                   Research
@@ -94,6 +93,49 @@ export class HomepageFooter extends React.Component {
           </section>
         </div>
       </div>
+    );
+  }
+}
+
+export class HomepageWhyDoIt extends React.Component {
+  render() {
+    return (
+      <section className="homepage--callout">
+        <div className="ibm--grid">
+          <div className="ibm--row">
+            <aside
+              aria-label="header callout"
+              className="ibm--col-md-8 ibm--col-lg-8 ibm--offset-lg-4">
+              <h4
+                className="bx--type-heading-02"
+                style={{ marginBottom: `2rem` }}>
+                Why do it?
+              </h4>
+            </aside>
+            <div
+              className="ibm--col-lg-8 ibm--col-md-8 ibm--offset-lg-4"
+              style={{ marginBottom: `2rem` }}>
+              <p className="bx--type-expressive-paragraph-01">
+                Design research is at the heart of Enterprise Design Thinking.
+                If you're not practicing design research, you're not working in
+                the Loop. Design research helps teams uncover insights and
+                inform the experiences we create for people.
+              </p>
+            </div>
+
+            <div className="ibm--col-lg-8 ibm--col-md-8 ibm--offset-lg-4">
+              <p className="bx--type-expressive-paragraph-01">
+                It turns out good design really is good business. Learn more
+                about the business impact of Enterprise Design Thinking in this{' '}
+                <Link to="#" alt="Forrester report">
+                  Forrester report
+                </Link>
+                .
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     );
   }
 }

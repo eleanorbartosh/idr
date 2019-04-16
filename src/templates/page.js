@@ -16,6 +16,7 @@ import NextPrevious from '../components/NextPrevious';
 import {
   HomepageFooter,
   HomepageHeader,
+  HomepageWhyDoIt,
 } from '../components/Homepage/Homepage';
 
 export default ({ data }) => {
@@ -38,6 +39,7 @@ export default ({ data }) => {
           <main className="page-content ibm--grid" id="maincontent">
             <MDXRenderer>{post.code.body}</MDXRenderer>
           </main>
+          <HomepageWhyDoIt />
           <HomepageFooter />
         </div>
         <WebsiteBackToTopBtn />
