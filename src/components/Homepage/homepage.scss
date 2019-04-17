@@ -88,13 +88,22 @@
   background: $carbon--gray-100;
 }
 
-.homepage--callout--blue {
-  background-color: $carbon--blue-90;
+aside h4 {
+  margin-bottom: 2rem;
+}
+
+.homepage--callout--pink {
+  background: linear-gradient(to right, #ed558f, #6e0736);
   z-index: 2;
 }
 
 .homepage--callout a {
-  color: $carbon--white-0;
+  color: $carbon--blue-40;
+  text-decoration: none;
+}
+
+.homepage--callout a:hover {
+  text-decoration: underline;
 }
 
 .homepage--footer__info {
@@ -111,7 +120,7 @@
   margin: 0 0 4rem 0;
 }
 
-.homepage--callout--blue a {
+.homepage--callout--pink a {
   display: flex;
   align-items: center;
   color: $carbon--blue-40;
@@ -126,4 +135,10 @@
 .homepage--callout--blue svg {
   margin-left: $spacing-md;
   fill: $carbon--blue-40;
+}
+
+/* Homepage Nav Boxes */
+
+.home-page-nav {
+  background: black;
 }
