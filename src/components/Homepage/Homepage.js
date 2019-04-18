@@ -67,30 +67,45 @@ export class HomepageTileNav extends React.Component {
           <section className="ibm--row">
             <div
               aria-label="guiding principles"
-              className="ibm--col-md-4 ibm--col-lg-4 ibm--offset-lg-4 home-page-nav">
-              <p>Guiding Principles</p>
-              <p>A foundation for great experiences</p>
-              <Link to="#" alt="Read more">
-                Read more
-              </Link>
+              className="ibm--col-md-4 ibm--col-lg-4 ibm--offset-lg-4 homepage--nav">
+              <div className="homepage--nav-tile">
+                <p>Guiding Principles</p>
+                <p className="bx--type-productive-heading-05">
+                  A foundation for great experiences
+                </p>
+
+                <img src="../../content/homepage/images/double-circle.svg" />
+
+                <Link to="#" alt="Read more">
+                  Read more
+                </Link>
+              </div>
             </div>
             <div
               aria-label="research in practice"
-              className="ibm--col-md-4 ibm--col-lg-4 home-page-nav">
-              <p>Research in practice</p>
-              <p>Establish a shared vocabulary</p>
-              <Link to="#" alt="Read more">
-                Read more
-              </Link>
+              className="ibm--col-md-4 ibm--col-lg-4 homepage--nav">
+              <div className="homepage--nav-tile">
+                <p>Research in practice</p>
+                <p className="bx--type-productive-heading-05">
+                  Establish a shared vocabulary
+                </p>
+                <Link to="#" alt="Read more">
+                  Read more
+                </Link>
+              </div>
             </div>
             <div
               aria-label="ethics and responsibilities"
-              className="ibm--col-md-4 ibm--col-lg-4 home-page-nav">
-              <p>Ethics & Responsibilities</p>
-              <p>The design research code of conduct</p>
-              <Link to="#" alt="Read more">
-                Read more
-              </Link>
+              className="ibm--col-md-4 ibm--col-lg-4 homepage--nav">
+              <div className="homepage--nav-tile">
+                <p>Ethics & Responsibilities</p>
+                <p className="bx--type-productive-heading-05">
+                  The design research code of conduct
+                </p>
+                <Link to="#" alt="Read more">
+                  Read more
+                </Link>
+              </div>
             </div>
           </section>
         </div>
