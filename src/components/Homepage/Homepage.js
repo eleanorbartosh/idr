@@ -65,6 +65,13 @@ export class HomepageTileNav extends React.Component {
       <div className="homepage--callout homepage--callout--pink">
         <div className="ibm--grid">
           <section className="ibm--row">
+            <div className="ibm--col-md-4 ibm--col-lg-4 ibm--offset-lg-4">
+              <h4 className="bx--type-heading-02">Research Practice</h4>
+            </div>
+          </section>
+        </div>
+        <div className="ibm--grid">
+          <section className="ibm--row" style={{ paddingTop: `2rem` }}>
             <div
               aria-label="guiding principles"
               className="ibm--col-md-4 ibm--col-lg-4 ibm--offset-lg-4 homepage--nav">
