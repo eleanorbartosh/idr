@@ -73,9 +73,6 @@ export class HomepageTileNav extends React.Component {
                 <p className="bx--type-productive-heading-05">
                   A foundation for great experiences
                 </p>
-
-                <img src="../../content/homepage/images/double-circle.svg" />
-
                 <Link to="#" alt="Read more">
                   Read more
                 </Link>
