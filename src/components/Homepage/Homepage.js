@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { ArrowRight20 } from '@carbon/icons-react';
+import { ArrowRight24 } from '@carbon/icons-react';
 
 export class HomepageHeader extends React.Component {
   componentDidMount() {
@@ -83,7 +83,7 @@ export class HomepageTileNav extends React.Component {
                 </p>
                 <Link to="#" alt="Read more">
                   Read more
-                  <ArrowRight20 aria-label="read more" />
+                  <ArrowRight24 aria-label="read more" />
                 </Link>
               </div>
             </div>
