@@ -339,7 +339,6 @@ class Layout extends React.Component {
               <WebsiteFooter
                 logoOffset={true}
                 linksCol1={[
-                  { href: '/contributing/designers', linkText: 'Contribute' },
                   { href: 'https://www.ibm.com/privacy', linkText: 'Privacy' },
                   {
                     href: 'https://www.ibm.com/legal',
@@ -349,30 +348,25 @@ class Layout extends React.Component {
                 ]}
                 linksCol2={[
                   {
-                    href: 'https://dribbble.com/_carbondesign',
+                    href: '#',
                     linkText: 'Dribbble',
                   },
                   {
-                    href: 'https://medium.com/@_carbondesign',
+                    href: 'https://medium.com/enterprise-design-thinking',
                     linkText: 'Medium',
                   },
                   {
-                    href: 'https://twitter.com/_carbondesign',
+                    href: 'https://twitter.com/ibmdesign',
                     linkText: 'Twitter',
                   },
                 ]}>
                 <p>
-                  Have questions? Email us or open
-                  <br /> an issue in{' '}
-                  <a href="https://github.com/carbon-design-system/carbon-website/issues/new/choose">
-                    GitHub.
+                  Have questions? Email us at{' '}
+                  <a href="mailto:designthinking@us.ibm.com">
+                    designthinking@us.ibm.com
                   </a>
                 </p>
                 <p>
-                  Vanilla Components version {version}
-                  <br />
-                  React Components version {reactVersion}
-                  <br />
                   Last updated {lastUpdated}
                   <br />
                   Copyright © {currentYear} IBM
