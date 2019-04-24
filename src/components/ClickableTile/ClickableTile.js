@@ -8,7 +8,7 @@ export default class ClickTile extends React.Component {
   static propTypes = {
     children: PropTypes.node,
     href: PropTypes.string,
-    date: PropTypes.string,
+    readtime: PropTypes.string,
     author: PropTypes.string,
     title: PropTypes.string,
     type: PropTypes.string,
@@ -21,7 +21,7 @@ export default class ClickTile extends React.Component {
     const {
       children,
       href,
-      date,
+      readtime,
       author,
       title,
       type,
@@ -54,7 +54,7 @@ export default class ClickTile extends React.Component {
                       <p className="tile__description">{description}</p>
                     ) : null}
                     {author ? <p className="tile__author">{author}</p> : null}
-                    {date ? <p className="tile__date">{date}</p> : null}
+                    {readtime ? <p className="tile__date">{readtime}</p> : null}
                   </div>
                 </div>
                 <div className="tile__img">{children}</div>
@@ -84,7 +84,7 @@ export default class ClickTile extends React.Component {
                 </div>
                 <div className="tile__caption">
                   {author ? <p className="tile__author">{author}</p> : null}
-                  {date ? <p className="tile__date">{date}</p> : null}
+                  {readtime ? <p className="tile__date">{readtime}</p> : null}
                   {excerpt ? <p className="tile__excerpt">{excerpt}</p> : null}
                 </div>
               </div>
