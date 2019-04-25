@@ -2,39 +2,39 @@
   "/": {
     "title": "Overview"
   },
-  "principles": {
+  "guiding-principles": {
     "title": "Guiding Principles",
     "sub-nav": {
-      "overview": {
-        "title": "Overview"
+      "principles-overview": {
+        "title": " Overview"
       },
-      "team": {
+      "research-as-a-team": {
         "title": "Research as a team"
       },
-      "curious": {
+      "stay-curious": {
         "title": "Stay curious"
       },
-      "make": {
+      "make-to-learn": {
         "title": "Make to learn"
       }
     }
   },
-  "practice": {
+  "research-in-practice": {
     "title": "Research in practice",
     "sub-nav": {
       "overview": {
         "title": "Overview"
       },
-      "users": {
+      "know-your-users": {
         "title": "Know your users"
       },
-      "success": {
+      "plan-for-success": {
         "title": "Plan for success"
       },
-      "insights": {
+      "craft-insights": {
         "title": "Craft insights"
       },
-      "story": {
+      "find-the-story": {
         "title": "Find the story"
       }
     }

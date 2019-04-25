@@ -229,6 +229,7 @@ export class HomepageTileNav extends React.Component {
                 <p className="bx--type-productive-heading-05">
                   The design research code of conduct
                 </p>
+                <div>{shapesAroundPerson}</div>
                 <div className="homepage-nav-tile-link-wrapper">
                   <Link to="#" alt="Read more">
                     Read more <ArrowRight20 aria-label="read more" />
