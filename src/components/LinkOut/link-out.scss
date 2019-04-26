@@ -16,10 +16,13 @@
 }
 
 .homepage--linkout a svg {
-  transform: translate(4px, 4px);
+  transform: translate(4px, 3px);
   fill: $carbon--blue-40;
+  width: 16px;
+  height: 16px;
 }
 
 .homepage--link-wrapper {
   display: flex;
+  align-items: center;
 }
