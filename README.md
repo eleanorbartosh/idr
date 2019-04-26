@@ -1,4 +1,4 @@
-# Carbon Design System
+# IBM Design Research
 
 This is a TEMPORARY stripped down version of the [Carbon Design System website](http://www.carbondesignsystem.com) which is built using GatsbyJS.
 
