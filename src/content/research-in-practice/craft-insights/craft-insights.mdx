@@ -1,31 +1,15 @@
 ---
-label: IBM firmly believes that web and software experiences should be accessible for everyone, regardless of abilities or impairments.
+label: Design research insights result from quality data, strong synthesis, and a thoughtful analysis.
 title: Craft insights
 ---
 
-### IBM firmly believes that web and software experiences should be accessible for everyone, regardless of abilities or impairments. Carbon is committed to following and complying with best practices when it comes to accessibility.
+### Design research insights result from quality data, strong synthesis, and a thoughtful analysis.
 
-<AnchorLinks>
+## Get in the loop
 
-- [Carbon and accessibility](#carbon-and-accessibility)
-- [Categories of disabilities](#categories-of-disabilities)
-- [Global accessibility standards](#global-accessibility-standards)
-- [Resources](#resources)
-- [Tools](#tools)
+An assumption is a clear articulation of something you think might true but needs to be proved or disproved with evidence. Identifying and addressing assumptions is key to mitigating risk in the areas we have the least clarity. Start with what you know and what you do not know. The art of writing a well-crafted assumption takes time and thought. It can be easy to get bogged down in the “what-ifs” or “need to know everything” feeling, otherwise known as research paralysis. If that happens, try prioritizing your questions and assumptions based on potential risk to your work.
 
-</AnchorLinks>
-
-## Carbon and accessibility
-
-Accessible design not only helps users with disabilities; it provides better user experiences for everyone.
-All Carbon components follow the [IBM Accessibility Checklist](https://www.ibm.com/able/guidelines/ci162/accessibility_checklist.html) which is based on WCAG AA, Section 508, and European standards. Carbon's patterns are perceivable, operable, and understandable to users, even when using a screen reader or other assistive technology.
-
-However, how you use Carbon also affects the accessibility of a product. Read this page to learn about accessibility in general. Then, while you're working, use the role-specific Carbon accessibility guidelines to help you make products that anyone can use.
-
-For a product to be considered accessible, it should:
-
-- Give every user the same benefits, regardless of ability
-- Adapt to any user in any context
+Address and evaluate your assumptions and questions
 
 <GridWrapper col_lg="8" flex="true" bleed="true">
   <ClickableTile
@@ -36,157 +20,45 @@ For a product to be considered accessible, it should:
 ![](images/sketch-icon.png)
 
   </ClickableTile>
-  <ClickableTile
-    title="Elements package: Grid"
-    href="https://github.com/IBM/carbon-elements/tree/master/packages/grid"
-    type="resource">
-
-![](images/github-icon.png)
-
-  </ClickableTile>
-  <ClickableTile
-    title="Grid package preview"
-    href="https://carbon-elements.netlify.com/grid/examples/preview/"
-    type="resource">
-
-![](images/sandbox-icon.png)
-
-  </ClickableTile>
 </GridWrapper>
 
-## Categories of disabilities
+One approach to validate your assumptions is to turn your larger research questions into testable statements. For example, a broad research objective might be, “How long do users spend looking for content?” Next time you’re doing a research activity, flip that question into a statement like this: Users need a more contextual way to find answers to complete everyday tasks. Then, collect evidence that proves or disproves that statement.
 
-Disabilities can be thought of as a mismatch between one's ability and one's environment, and can be broken into three main types:
+As you run experiments, make sure to identify factors that may influence your assumption. Specify what you are testing or seeking to understand. If you’re curious about how people use their tablets at home, consider what could affect or alter the data you examine, such as room of the house, time of day, age, etc.
 
-| Type           | Description                                                                                                                                                                          |     |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
-| _Situational_  | A person with typical vision might struggle to view their screen in a bright environment. Or, a person sitting in a library may be unable to watch a video with the audio turned on. |     |
-| _Temporary_    | A person with a broken wrist may not be able to type but will regain the ability when healed.                                                                                        |     |
-| _Long-lasting_ | This is what people typically think of when they hear "disability."                                                                                                                  |     |
+If you cannot test your assumption, rewrite it until you can make a feasible research protocol. Remember that an assumption needs to be proven true or untrue with evidence.
+Address and evaluate your assumptions and questions
 
-### Blind users
+## Collect quality data
 
-#### How they experience an interface
+Data collections describe the gathering, measurement, and control of information within a research activity.
 
-- May use a screen reader to experience interfaces
-- May rely on Braille output
-- Cannot be expected to use a pointer or mouse for input
+Raw data exists in many mediums: sticky notes, photographs, recordings, objects, survey answers, academic articles, customer complaints, error logs, analytics, and more. It’s up to you to choose the appropriate data collection method for your research activity.
 
-#### What designers should think about
+Keep in mind this adage: garbage in, garbage out. Gather data that reflects honest behaviors and reactions. Remember that the collection techniques used can influence how users respond. For instance, asking users to answer difficult questions over the phone, face to face, or in a survey can elicit different answers. Choose an appropriate method to collect your data. Don’t ask leading questions.
 
-- Is visual information translated effectively into text? Can the image be understood through its metadata alone?
-- When possible, test all designs through a screen reader.
+Ensure the data is reliable and valid. Make an effort to collect replicable and consistent data that encompasses a broad range of real user experiences. But don’t ignore the outliers. While you cannot design for all extreme characteristics, your team can understand the entire spectrum of needs. With the outliers, you may find neglected niches full of serendipitous opportunities.
 
-#### How this applies to everyone
+Clean your data, and reduce human error before using. For quantitative data, this can mean ensuring data consistency or removing inaccuracies from your data sets. You can clean qualitative data by screening participants before inviting them to a study or removing that participant’s data from the collection before it’s synthesized.
 
-- As audio-only interfaces gain popularity through devices like AI assistants, users are expecting more and more from the audio representations of experiences.
+## Organize your data through synthesis
 
-### Low-vision users
+Data synthesis involves the organization, categorization, and description of a body of data. Once you clean data, try organizing it a few different ways to clarify information. Combine the data by clumping, sorting, and taking tallies.
 
-Low vision can include partial sight in one or both eyes and can range from mild to severe. It affects approximately 4% of the world’s population.
+Sometimes the right synthesis method can depend on the context and collection method used. For example, if you collected data through a series phone interviews, you may choose affinity diagramming or coding to help you visually map the information in new ways. However, if you collected data through a quantitative method, then a descriptive summary can be beneficial.
 
-#### How they experience an interface
+## Seek patterns through data analysis
 
-- May use screen readers, screen magnifiers, high-contrast modes, and/or monochrome displays
-- May have their browser font size adjusted to a larger setting
-- May not use adaptive technology at all
+Data analysis seeks to uncover patterns, motifs, and inferences from synthesized data.
 
-#### What designers should think about
+After you organize your data, interpret it in a meaningful way that’s based on evidence. Explain the data by looking for patterns. Make sure that you address the root cause, not symptoms. Find the factors that contribute to the main problem. Sometimes it can be helpful to look for contradictions in your data and explore why they might occur.
 
-- Maximize the readability and visual clarity of content.
-- Consider how relative proximity of information changes when a page is magnified.
-- Follow [keyboard guidelines](https://www.nngroup.com/articles/keyboard-accessibility/) and test with a screen reader to ensure the page is read to the user in a logical order.
-- To get a better understanding of the various low-vision disabilities, we recommend using the [NoCoffee](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl) Chrome plugin to preview websites.
+There are a variety of tools and resources to help analyze data. One popular method for analyzing qualitative user data is an experience map. If your data is more quantitative, you may choose the approach of an exploratory data analysis or inferential statistics.
 
-#### How this applies to everyone
+Analyzed data needs to be transformed to focus the team journey towards a user outcome. It should breed quality insights your team can use today.
 
-- Users without disabilities sometimes need to view screens in poor lighting conditions. For example, imagine using a screen outside on a bright day. A higher-contrast design will make the screen more usable for everyone.
-- Vision worsens gradually starting around age 40, and good contrast helps this very large demographic use your interface.
+## Create powerful research insights
 
-### Color-blind users
+Research insights come from your analyzed data. They should be original, non-obvious, and actionable. They often explain the “how” or “why” rather than the “what” or “when” and might reveal people's true motivations—not just their actions.
 
-Color-blindness affects 8% of all men and 0.4% of women.
-
-#### How they experience an interface
-
-- Will not be able to differentiate between some colors on an interface
-- Rely on non-color information to use an interface
-
-#### What designers should think about
-
-- Run your design through a color-blind simulator. If the design doesn't work, try another approach. If you're working in Sketch, we recommend the [Stark](http://www.getstark.co/) plugin.
-  <!-- - To view best practices for using color in Data Visualization, view the [Data Vis](/data-visualization/overview/colors) color page. -->
-
-### Deaf and hard-of-hearing users
-
-#### How they experience an interface
-
-- May rely on captioning and other alternative representations of audio
-
-#### What designers should think about
-
-- Find alternatives to conveying information exclusively with sound.
-- Transcribe and caption all videos and animations that have meaningful audio.
-
-#### How this applies to everyone
-
-- All users can benefit from closed captioning. Imagine using your device in a loud environment or, alternatively, in a quiet environment when it wouldn't be appropriate to turn your sound on.
-
-### Physical disabilities
-
-#### How users with physical disabilities experience an interface
-
-- May rely on keyboards, track balls, voice recognition, and other assistive technologies to interact with an interface
-- May not be able to use a keyboard, mouse, or other pointer
-
-#### What designers should think about
-
-- Design for good keyboard interaction, making sure all actions are keyboard accessible and efficient.
-- Learn how to navigate using a [keyboard](https://help.gnome.org/users/gnome-help/stable/keyboard-nav.html.en) and spend some time navigating the web, email, and digital products using only the keyboard.
-
-#### How this applies to everyone
-
-- Many users prefer to navigate interfaces with a keyboard and no mouse for efficiency. Good keyboard navigation can help everyone be more productive.
-
-### Users with cognitive disabilities
-
-These users offer a broad spectrum of concerns for design. Functional cognitive disabilities can include difficulty with:
-
-- Memory
-- Problem solving
-- Attention
-- Reading, linguistic, and verbal comprehension
-- Math comprehension
-- Visual comprehension
-
-#### How they experience an interface
-
-- May have limited working memory and need information to remain visible throughout the completion of a task
-- May experience seizures when exposed to flashing content (epilepsy)
-
-#### What designers should think about
-
-- Designers should understand the danger of complex language, non-stopping or flashing animations and fundamental cognitive usability heuristics.
-- Design in as linear a fashion as possible and focus on design heuristics that have to do with cognitive load and memory.
-
-#### How this applies to everyone
-
-- Best practices for cognitive disabilities benefit all users. Busy environments can tax your cognitive load. Aging adults may also experience a decline in cognitive abilities. Placing a low cognitive load on users reduces mistakes and improves effectiveness, regardless of their abilities.
-
-## Global accessibility standards
-
-- [World Wide Web Consortium](https://www.w3.org/WAI/) (W3C)'s Web Accessibility Initiative (WAI) is an effort to improve the accessibility of the World Wide Web for people of all abilities.
-- Web Accessibility Initiative (WAI) contributors create and maintain [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/) (WCAG), which is the global accessibility standard.
-
-## Resources
-
-- [IBM Web Accessibility Checklist](https://www.ibm.com/able/guidelines/ci162/accessibility_checklist.html) - IBM's specific ruleset for creating accessible web applications
-- [IBM accessibility quick guidance](https://w3.ibm.com/able/devtest/quick/) - (Internal only)
-- [W3C low vision requirements](https://www.w3.org/TR/low-vision-needs/)
-
-## Tools
-
-- [High-contrast Chrome plugin](https://chrome.google.com/webstore/detail/high-contrast/djcfdncoelnlbldjfhinnjlhdjlikmph/related?hl=en)
-- [Stark Sketch plugin](http://www.getstark.co/)
-- [NoCoffee vision simulator](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl)
-- [Color contrast checker](https://marijohannessen.github.io/color-contrast-checker/)
+You will likely craft many insights as a result of your analyzed data. Prioritize the findings based on impact, and rank them to influence team decisions appropriately. Choose those insights that require the least expense but result in high impact. A team is limited in what it can deliver depending on bandwidth, skills, and resources and your prioritization might shift as understanding increases.

@@ -22,11 +22,11 @@
   "research-in-practice": {
     "title": "Research in practice",
     "sub-nav": {
-      "overview": {
+      "practice-overview": {
         "title": "Overview"
       },
-      "know-your-users": {
-        "title": "Know your users"
+      "focus-on-people": {
+        "title": "Focus on people"
       },
       "plan-for-success": {
         "title": "Plan for success"

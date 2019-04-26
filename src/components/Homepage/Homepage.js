@@ -125,7 +125,139 @@ export class HomepageHeader extends React.Component {
 
   render() {
     // Banner image
-    const bannerImg = require('../../content/homepage/images/homepage_img.jpg');
+    const bannerImg = (
+      <svg
+        width="304"
+        height="304"
+        viewBox="0 0 304 304"
+        xmlns="http://www.w3.org/2000/svg">
+        <g id="Circle-matrix" fill="none" fillRule="evenodd">
+          <g id="Group-3">
+            <circle
+              id="Oval-Copy-15"
+              stroke="#DCDCDC"
+              strokeWidth="0.8"
+              cx="192"
+              cy="112"
+              r="32"
+            />
+            <circle
+              id="Oval-Copy-25"
+              stroke="#DCDCDC"
+              strokeWidth="0.8"
+              cx="192"
+              cy="32"
+              r="32"
+            />
+            <circle
+              id="Oval-Copy-26"
+              stroke="#DCDCDC"
+              strokeWidth="0.8"
+              cx="272"
+              cy="32"
+              r="32"
+            />
+            <circle
+              id="Oval-Copy-18"
+              stroke="#DCDCDC"
+              strokeWidth="0.8"
+              cx="192"
+              cy="272"
+              r="32"
+            />
+            <circle
+              id="Oval-Copy-12"
+              stroke="#DCDCDC"
+              strokeWidth="0.8"
+              cx="32"
+              cy="192"
+              r="32"
+            />
+            <circle
+              id="Oval-Copy-16"
+              stroke="#DCDCDC"
+              strokeWidth="0.8"
+              cx="112"
+              cy="112"
+              r="32"
+            />
+            <circle
+              id="Oval-Copy-27"
+              stroke="#DCDCDC"
+              strokeWidth="0.8"
+              cx="32"
+              cy="112"
+              r="32"
+            />
+            <circle
+              id="Oval-Copy-21"
+              stroke="#DCDCDC"
+              strokeWidth="0.8"
+              cx="112"
+              cy="32"
+              r="32"
+            />
+            <circle
+              id="Oval-Copy-28"
+              stroke="#DCDCDC"
+              strokeWidth="0.8"
+              cx="32"
+              cy="32"
+              r="32"
+            />
+            <circle
+              id="Oval-Copy-19"
+              stroke="#DCDCDC"
+              strokeWidth="0.8"
+              cx="112"
+              cy="272"
+              r="32"
+            />
+            <circle
+              id="Oval-Copy-29"
+              stroke="#DCDCDC"
+              strokeWidth="0.8"
+              cx="32"
+              cy="272"
+              r="32"
+            />
+            <circle
+              id="Oval-Copy-11"
+              stroke="#DCDCDC"
+              strokeWidth="0.8"
+              cx="272"
+              cy="189"
+              r="32"
+            />
+            <circle
+              id="Oval-Copy-17"
+              stroke="#DCDCDC"
+              strokeWidth="0.8"
+              cx="272"
+              cy="112"
+              r="32"
+            />
+            <circle
+              id="Oval-Copy-20"
+              stroke="#DCDCDC"
+              strokeWidth="0.8"
+              cx="272"
+              cy="272"
+              r="32"
+            />
+            <circle
+              id="Oval"
+              stroke="#DCDCDC"
+              strokeWidth="0.8"
+              cx="192"
+              cy="192"
+              r="32"
+            />
+            <circle id="Oval-Copy-10" fill="#EE538B" cx="112" cy="192" r="32" />
+          </g>
+        </g>
+      </svg>
+    );
 
     const homeTitle = (
       <h3 className="homepage--header__title">
@@ -143,10 +275,14 @@ export class HomepageHeader extends React.Component {
         <section className="homepage--header">
           <div className="ibm--grid">
             <div className="ibm--row">
-              <div className="ibm--col-lg-4 ibm--offset-lg-4">{homeTitle}</div>
+              <div className="ibm--col-sm-4 ibm--col-md-4 ibm--col-lg-4 ibm--offset-lg-4">
+                {homeTitle}
+              </div>
+              <div className="banner-svg ibm--col-sm-4 ibm--col-md-2 ibm-offset-md-2 ibm--col-lg-4 ibm--offset-lg-3">
+                {bannerImg}
+              </div>
             </div>
           </div>
-          {/* <img src={bannerImg} alt="Carbon Design System banner image" /> */}
         </section>
         <section className="homepage--callout">
           <div className="ibm--grid">
@@ -179,7 +315,7 @@ export class HomepageHeader extends React.Component {
 export class HomepageTileNav extends React.Component {
   render() {
     return (
-      <div className="homepage--callout homepage--callout--pink">
+      <div className="homepage--callout--pink">
         <div className="ibm--grid">
           <section className="ibm--row">
             <div className="ibm--col-md-4 ibm--col-lg-4 ibm--offset-lg-4">
@@ -189,54 +325,52 @@ export class HomepageTileNav extends React.Component {
         </div>
         <div className="ibm--grid">
           <section className="ibm--row" style={{ paddingTop: `2rem` }}>
-            <div
+            <a
               aria-label="guiding principles"
-              className="ibm--col-md-4 ibm--col-lg-4 ibm--offset-lg-4 homepage--nav">
+              className="ibm--col-md-4 ibm--col-lg-4 ibm--offset-lg-4 homepage--nav"
+              href="guiding-principles/principles-overview">
               <div className="homepage--nav-tile">
                 <p>Guiding Principles</p>
                 <p className="bx--type-productive-heading-05">
                   A foundation for great experiences
                 </p>
                 <div>{doubleCircle}</div>
-                <div className="homepage-nav-tile-link-wrapper">
-                  <Link to="#" alt="Read more">
-                    Read more <ArrowRight20 aria-label="read more" />
-                  </Link>
+                <div className="homepage-nav-tile-wrapper">
+                  Read more <ArrowRight20 aria-label="read more" />
                 </div>
               </div>
-            </div>
-            <div
+            </a>
+
+            <a
               aria-label="research in practice"
-              className="ibm--col-md-4 ibm--col-lg-4 homepage--nav">
+              className="ibm--col-md-4 ibm--col-lg-4 homepage--nav"
+              href="/research-in-practice/practice-overview">
               <div className="homepage--nav-tile">
                 <p>Research in practice</p>
                 <p className="bx--type-productive-heading-05">
                   Establish a shared vocabulary
                 </p>
                 <div>{shapesOnLine}</div>
-                <div className="homepage-nav-tile-link-wrapper">
-                  <Link to="#" alt="Read more">
-                    Read more <ArrowRight20 aria-label="read more" />
-                  </Link>
+                <div className="homepage-nav-tile-wrapper">
+                  Read more <ArrowRight20 aria-label="read more" />
                 </div>
               </div>
-            </div>
-            <div
+            </a>
+            <a
               aria-label="ethics and responsibilities"
-              className="ibm--col-md-4 ibm--col-lg-4 homepage--nav">
+              className="ibm--col-md-4 ibm--col-lg-4 homepage--nav"
+              href="/ethics">
               <div className="homepage--nav-tile">
                 <p>Ethics & Responsibilities</p>
                 <p className="bx--type-productive-heading-05">
                   The design research code of conduct
                 </p>
                 <div>{shapesAroundPerson}</div>
-                <div className="homepage-nav-tile-link-wrapper">
-                  <Link to="#" alt="Read more">
-                    Read more <ArrowRight20 aria-label="read more" />
-                  </Link>
+                <div className="homepage-nav-tile-wrapper">
+                  Read more <ArrowRight20 aria-label="read more" />
                 </div>
               </div>
-            </div>
+            </a>
           </section>
         </div>
       </div>
@@ -270,9 +404,12 @@ export class HomepageWhyDoIt extends React.Component {
               <p className="bx--type-expressive-paragraph-01">
                 It turns out good design really is good business. Learn more
                 about the business impact of Enterprise Design Thinking in this{' '}
-                <Link to="#" alt="Forrester report">
+                <a
+                  className="forrester-link"
+                  href="https://www.ibm.com/design/thinking/static/media/Enterprise-Design-Thinking-Report.8ab1e9e1.pdf"
+                  alt="Forrester report">
                   Forrester report
-                </Link>
+                </a>
                 .
               </p>
             </div>
