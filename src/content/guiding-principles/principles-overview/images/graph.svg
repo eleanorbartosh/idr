@@ -1,0 +1,24 @@
+<svg width='34' height='33' viewBox='0 0 34 33' 
+    xmlns='http://www.w3.org/2000/svg' 
+    xmlnsXlink='http://www.w3.org/1999/xlink'>
+    <defs>
+        <polygon id='path-1' points='1 0.8539 1.9329 0.8539 1.9329 32.5609 1 32.5609'
+        />
+</defs>
+<g id='IDR' fill='none' fillRule='evenodd'>
+            <g id='2' transform='translate(-987 -935)'>
+                <g id='block-copy-2' transform='translate(972 719)'>
+                    <g id='Group-6' transform='translate(15 215)'>
+                        <g id='Group-3' transform='translate(0 .58)'>
+                            <mask id='mask-2' fill='#fff'>
+                                <use xlinkHref='#path-1' />
+                            </mask>
+                            <path d='M1.4329,0.8539 L1.4329,32.5609' id='Stroke-1' stroke='#000' strokeWidth='0.866' strokeLinecap='round' mask='url(#mask-2)' />
+                        </g>
+                        <polyline id='Stroke-4' stroke='#000' strokeWidth='0.866' strokeLinecap='round' strokeLinejoin='round' points='33.1487 33.1459 1.4327 33.1459 8.1347 17.2889 12.7077 25.2169 17.2907 9.3589 24.1497 21.2659 31.0237 9.3589'
+                    />
+</g>
+</g>
+</g>
+</g>
+</svg>

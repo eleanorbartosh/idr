@@ -1,0 +1,27 @@
+<svg width="33px" height="34px" viewBox="0 0 33 34" version="1.1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <polygon id="path-1" points="0.4926 0.1421 14.0886 0.1421 14.0886 20 0.4926 20"></polygon>
+    </defs>
+    <g id="IDR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6" transform="translate(-672.000000, -963.000000)">
+            <g id="block-copy" transform="translate(652.000000, 740.000000)">
+                <g id="Group-13" transform="translate(20.000000, 224.000000)">
+                    <path d="M29.0027,6.6522 L29.0027,9.5892 C29.0027,11.2622 28.0247,11.9402 26.7277,11.9402 L5.8027,11.9402 C4.5047,11.9402 3.5437,11.2622 3.5437,9.5892 L3.5437,6.6522" id="Stroke-1" stroke="#000000" stroke-width="0.866" stroke-linejoin="round"></path>
+                    <path d="M16.2908,16.2912 L16.2908,6.6522" id="Stroke-3" stroke="#000000" stroke-width="0.866" stroke-linejoin="round"></path>
+                    <path d="M3.5423,0.433 C1.8253,0.433 0.4333,1.825 0.4333,3.543 C0.4333,5.26 1.8253,6.652 3.5423,6.652 C5.2593,6.652 6.6523,5.26 6.6523,3.543 C6.6523,1.825 5.2593,0.433 3.5423,0.433 Z" id="Stroke-5" stroke="#000000" stroke-width="0.866" stroke-linejoin="round"></path>
+                    <g id="Group-9" transform="translate(9.000000, 14.149000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-8"></g>
+                        <path d="M13.0886,18.0001 L13.0886,14.1061 C13.0886,11.3651 11.1866,9.0711 8.6316,8.4661 C9.7876,7.9511 10.5956,6.7941 10.5956,5.4471 C10.5956,3.6221 9.1156,2.1421 7.2906,2.1421 C5.4656,2.1421 3.9856,3.6221 3.9856,5.4471 C3.9856,6.7941 4.7936,7.9511 5.9496,8.4661 C3.3946,9.0711 1.4926,11.3651 1.4926,14.1061 L1.4926,18.0001" id="Stroke-7" stroke="#000000" stroke-width="0.866" stroke-linejoin="round" mask="url(#mask-2)"></path>
+                    </g>
+                    <polygon id="Stroke-10" stroke="#000000" stroke-width="0.866" stroke-linejoin="round" points="13.175 6.651 19.394 6.651 19.394 0.432 13.175 0.432"></polygon>
+                    <polygon id="Stroke-12" stroke="#000000" stroke-width="0.866" stroke-linejoin="round" points="25.8504 6.6515 28.9984 0.4325 32.1494 6.6515"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

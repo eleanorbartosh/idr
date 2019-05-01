@@ -29,6 +29,7 @@ module.exports = {
         import GridWrapper from '${__dirname}/src/components/GridWrapper';
         import SimpleColumns from '${__dirname}/src/components/SimpleColumns';
         import Video from '${__dirname}/src/components/Video';
+        import NavTile from '${__dirname}/src/components/NavTile'; 
         
         export default {
           AnchorLinks,
@@ -41,6 +42,7 @@ module.exports = {
           GridWrapper,
           SimpleColumns,
           Video,
+          NavTile,
         };
       `,
         gatsbyRemarkPlugins: [
