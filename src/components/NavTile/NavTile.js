@@ -8,7 +8,6 @@ export default class NavTile extends React.Component {
     href: PropTypes.string,
     title: PropTypes.string,
     description: PropTypes.string,
-    svgicon: PropTypes.string,
   };
 
   render() {
