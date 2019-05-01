@@ -324,7 +324,7 @@ export class HomepageTileNav extends React.Component {
           </section>
         </div>
         <div className="ibm--grid">
-          <section className="ibm--row" style={{ paddingTop: `2rem` }}>
+          <section className="ibm--row">
             <a
               aria-label="guiding principles"
               className="ibm--col-md-4 ibm--col-lg-4 ibm--offset-lg-4 homepage--nav"

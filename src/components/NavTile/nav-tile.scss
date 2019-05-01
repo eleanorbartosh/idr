@@ -1,0 +1,25 @@
+.nav--tile {
+  background-color: $carbon--white-0;
+  margin: 1px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: space-between;
+}
+
+.nav--tile:hover {
+  background-color: $carbon--gray-20;
+  transition: 150ms cubic-bezier(0.2, 0, 0.38, 0.9);
+}
+
+.nav--tile a {
+  text-decoration: none;
+  color: $carbon--black-100;
+}
+
+.nav--tile-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 320px;
+}
