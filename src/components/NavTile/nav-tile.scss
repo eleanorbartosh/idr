@@ -12,6 +12,10 @@
   transition: 150ms cubic-bezier(0.2, 0, 0.38, 0.9);
 }
 
+.nav--tile:hover .nav--tile-readmore {
+  text-decoration: underline;
+}
+
 .nav--tile a {
   text-decoration: none;
   color: $carbon--black-100;
@@ -22,4 +26,15 @@
   flex-direction: column;
   justify-content: space-between;
   height: 320px;
+}
+
+.nav--tile-readmore {
+  display: flex;
+  align-items: center;
+  color: $carbon--blue-60;
+}
+
+.nav--tile-readmore svg {
+  padding-left: 4px;
+  fill: $carbon--blue-60;
 }
