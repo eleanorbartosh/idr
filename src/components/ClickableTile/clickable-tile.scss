@@ -76,7 +76,7 @@ a.tile--article.tile--dark:hover {
     padding-right: 1rem;
   }
 
- @include carbon--breakpoint('xlg')  {
+  @include carbon--breakpoint('xlg') {
     padding-right: 30%;
   }
 }
@@ -169,8 +169,8 @@ a.tile--article.tile--dark:hover {
 }
 
 .tile--resource .tile__img {
-  width: 32px;
-  height: 32px;
+  width: 20px;
+  height: 20px;
   -ms-flex-negative: 0;
   flex-shrink: 0;
   position: absolute;
