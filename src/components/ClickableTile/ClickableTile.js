@@ -7,7 +7,7 @@ import {
   Tools20,
   Pdf20,
   Document20,
-  Pdf24,
+  Download20,
 } from '@carbon/icons-react';
 
 export default class ClickTile extends React.Component {
@@ -67,7 +67,7 @@ export default class ClickTile extends React.Component {
                   <Document20 aria-label="Open resource" />
                 </div>
                 <div className="tile__link-icon">
-                  <Launch20 aria-label="Open resource" />
+                  <Download20 aria-label="Open resource" />
                 </div>
               </ClickableTile>
             </div>
@@ -98,6 +98,39 @@ export default class ClickTile extends React.Component {
                 </div>
                 <div className="tile__img">
                   <Pdf20 aria-label="Open resource" />
+                </div>
+                <div className="tile__link-icon">
+                  <Download20 aria-label="Open resource" />
+                </div>
+              </ClickableTile>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    if (type === 'tools') {
+      return (
+        <div className="tile--resource" style={{ paddingBottom: `2rem` }}>
+          <div className="bx--aspect-ratio bx--aspect-ratio--2x1">
+            <div className="bx--aspect-ratio--object">
+              <ClickableTile
+                target="_blank"
+                rel="noopener noreferrer"
+                href={href}>
+                <div className="tile__info">
+                  <h5>{title}</h5>
+
+                  <div className="tile__caption">
+                    {description ? (
+                      <p className="tile__description">{description}</p>
+                    ) : null}
+                    {author ? <p className="tile__author">{author}</p> : null}
+                    {readtime ? <p className="tile__date">{readtime}</p> : null}
+                  </div>
+                </div>
+                <div className="tile__img">
+                  <Tools20 aria-label="Open resource" />
                 </div>
                 <div className="tile__link-icon">
                   <Launch20 aria-label="Open resource" />
