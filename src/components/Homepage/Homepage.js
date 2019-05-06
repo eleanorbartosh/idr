@@ -291,9 +291,9 @@ export class HomepageHeader extends React.Component {
                 aria-label="header callout"
                 className="ibm--col-md-8 ibm--col-lg-8 ibm--offset-lg-4">
                 <h4 className="bx--type-heading-02">
-                  What is Design
+                  What is IBM Design
                   <br />
-                  Research
+                  Research?
                 </h4>
               </aside>
               <div className="ibm--col-lg-8 ibm--col-md-4 ibm--offset-lg-4">
@@ -357,11 +357,11 @@ export class HomepageTileNav extends React.Component {
               </div>
             </a>
             <a
-              aria-label="ethics and responsibilities"
+              aria-label="ethics"
               className="ibm--col-md-4 ibm--col-lg-4 homepage--nav"
               href="/ethics">
               <div className="homepage--nav-tile">
-                <p>Ethics & Responsibilities</p>
+                <p>Ethics</p>
                 <p className="bx--type-productive-heading-05">
                   The design research code of conduct
                 </p>
@@ -395,15 +395,16 @@ export class HomepageWhyDoIt extends React.Component {
               <p className="bx--type-expressive-paragraph-01">
                 Design research is at the heart of Enterprise Design Thinking.
                 If you're not practicing design research, you're not working in
-                the Loop. Design research helps teams uncover insights and
-                inform the experiences we create for people.
+                the Loop. Whole team design research uncovers insights and
+                informs the experiences we create for people.
               </p>
             </div>
 
             <div className="ibm--col-lg-8 ibm--col-md-8 ibm--offset-lg-4">
               <p className="bx--type-expressive-paragraph-01">
-                It turns out good design really is good business. Learn more
-                about the business impact of Enterprise Design Thinking in this{' '}
+                Good design is driven by good research and it turns out good
+                design really is good business. Learn more about the business
+                impact of Enterprise Design Thinking and design research in this{' '}
                 <a
                   className="forrester-link"
                   href="https://www.ibm.com/design/thinking/static/media/Enterprise-Design-Thinking-Report.8ab1e9e1.pdf"
