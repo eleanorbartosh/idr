@@ -56,6 +56,21 @@ export default class NextPrevious extends React.Component {
       if (string === 'faq') {
         newString = 'FAQ';
       }
+      if (string === 'research-as-a-team') {
+        newString = 'Research as a team';
+      }
+      if (string === 'make-to-learn') {
+        newString = 'Make to learn';
+      }
+      if (string === 'focus-on-people') {
+        newString = 'Focus on people';
+      }
+      if (string === 'plan-for-success') {
+        newString = 'Plan for success';
+      }
+      if (string === 'find-the-story') {
+        newString = 'Find the story';
+      }
     }
     return newString;
   };
