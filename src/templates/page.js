@@ -17,6 +17,7 @@ import {
   HomepageHeader,
   HomepageWhyDoIt,
   HomepageTileNav,
+  HomePageBottomNav,
 } from '../components/Homepage/Homepage';
 
 export default ({ data }) => {
@@ -41,6 +42,7 @@ export default ({ data }) => {
           <main className="page-content ibm--grid" id="maincontent">
             <MDXRenderer>{post.code.body}</MDXRenderer>
           </main>
+          <HomePageBottomNav />
         </div>
         <WebsiteBackToTopBtn />
       </Layout>
@@ -58,7 +60,6 @@ export default ({ data }) => {
         />
         <main className="page-content ibm--grid" id="maincontent">
           <MDXRenderer>{post.code.body}</MDXRenderer>
-          <EditLink slug={slug} />
         </main>
         <NextPrevious
           slug={slug}
