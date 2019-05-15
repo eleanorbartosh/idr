@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import { ArrowRight20 } from '@carbon/icons-react';
+import Link from 'react';
 
 const doubleCircle = (
   <svg
@@ -289,14 +289,14 @@ export class HomepageHeader extends React.Component {
             <div className="ibm--row">
               <aside
                 aria-label="header callout"
-                className="ibm--col-md-8 ibm--col-lg-8 ibm--offset-lg-4">
-                <h4 className="bx--type-heading-02">
+                className="ibm--col-md-8 ibm--col-lg-4 ibm--offset-lg-4">
+                <h3 className="bx--type-heading-02">
                   What is IBM Design
                   <br />
                   Research?
-                </h4>
+                </h3>
               </aside>
-              <div className="ibm--col-lg-8 ibm--col-md-4 ibm--offset-lg-4">
+              <div className="ibm--col-lg-8 ibm--col-md-5">
                 <p className="bx--type-expressive-paragraph-01">
                   The practice of design research incorporates a rigorous study
                   of people and the ecosystems in which they exist. Through the
@@ -319,7 +319,7 @@ export class HomepageTileNav extends React.Component {
         <div className="ibm--grid">
           <section className="ibm--row">
             <div className="ibm--col-md-4 ibm--col-lg-4 ibm--offset-lg-4">
-              <h4 className="bx--type-heading-02">Research Practice</h4>
+              <h3 className="bx--type-heading-02">Research practice</h3>
             </div>
           </section>
         </div>
@@ -330,7 +330,7 @@ export class HomepageTileNav extends React.Component {
               className="ibm--col-md-4 ibm--col-lg-4 ibm--offset-lg-4 homepage--nav"
               href="guiding-principles/principles-overview">
               <div className="homepage--nav-tile">
-                <p>Guiding Principles</p>
+                <p>Guiding principles</p>
                 <p className="bx--type-productive-heading-05">
                   A foundation for great experiences
                 </p>
@@ -386,11 +386,11 @@ export class HomepageWhyDoIt extends React.Component {
           <div className="ibm--row">
             <aside
               aria-label="header callout"
-              className="ibm--col-md-8 ibm--col-lg-8 ibm--offset-lg-4">
-              <h4 className="bx--type-heading-02">Why do it?</h4>
+              className="ibm--col-md-5 ibm--col-lg-4 ibm--offset-lg-4">
+              <h3 className="bx--type-heading-02">Why do it?</h3>
             </aside>
             <div
-              className="ibm--col-lg-8 ibm--col-md-8 ibm--offset-lg-4"
+              className="ibm--col-lg-8 ibm--col-md-5"
               style={{ marginBottom: `2rem` }}>
               <p className="bx--type-expressive-paragraph-01">
                 Design research is at the heart of Enterprise Design Thinking.
@@ -400,7 +400,7 @@ export class HomepageWhyDoIt extends React.Component {
               </p>
             </div>
 
-            <div className="ibm--col-lg-8 ibm--col-md-8 ibm--offset-lg-4">
+            <div className="ibm--col-lg-8 ibm--col-md-5 ibm--offset-lg-8">
               <p className="bx--type-expressive-paragraph-01">
                 Good design is driven by good research and it turns out good
                 design really is good business. Learn more about the business
@@ -417,6 +417,26 @@ export class HomepageWhyDoIt extends React.Component {
           </div>
         </div>
       </section>
+    );
+  }
+}
+
+export class HomePageBottomNav extends React.Component {
+  render() {
+    return (
+      <div className="next-previous-wrapper">
+        <div className="ibm--grid">
+          <div className="ibm--row next-previous-controls">
+            <a className="ibm--col-lg-6 ibm--col-md-4 ibm--col-sm-2 ibm--offset-lg-4" />
+            <a
+              href="guiding-principles/principles-overview"
+              className="next-previous-link next-previous-link--next ibm--col-lg-6 ibm--col-md-4 ibm--col-sm-2">
+              <span className="target-page-direction">Next</span>
+              <span className="target-page-name">Principles overview</span>
+            </a>
+          </div>
+        </div>
+      </div>
     );
   }
 }

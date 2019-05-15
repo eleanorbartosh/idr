@@ -253,16 +253,6 @@ class Layout extends React.Component {
               </HeaderName>
 
               <HeaderGlobalBar>
-                {this.state.isSearchOpen ? (
-                  <GlobalSearch />
-                ) : (
-                  <HeaderGlobalAction
-                    className="bx--header__action--search"
-                    aria-label="Search Website"
-                    onClick={() => this.handleSearchClick('isSearchOpen')}>
-                    <Search20 />
-                  </HeaderGlobalAction>
-                )}
                 <HeaderGlobalAction
                   className="bx--header__action--switcher"
                   aria-label="Switch"
@@ -347,10 +337,6 @@ class Layout extends React.Component {
                   { href: 'https://www.ibm.com', linkText: 'IBM.com' },
                 ]}
                 linksCol2={[
-                  {
-                    href: '#',
-                    linkText: 'Dribbble',
-                  },
                   {
                     href: 'https://medium.com/enterprise-design-thinking',
                     linkText: 'Medium',
